@@ -10,6 +10,7 @@ function Timeline() {
     { short: 'FGP', meaning: 'Federação de Ginástica de Portugal' },
     { short: 'MAG', meaning: 'Mesa da Assembleia Geral' },
     { short: 'AG', meaning: 'Assembleia Geral' },
+    { short: 'REFGP', meaning: 'Regulamento Eleitoral da Federação de Ginástica de Portugal' },
     { short: 'TAD', meaning: 'Tribunal Arbitral do Desporto' },
     { short: 'IPDJ', meaning: 'Instituto Português do Desporto e Juventude' }
   ];
@@ -86,20 +87,23 @@ function Timeline() {
     {
       date: '15 dezembro 2024',
       title: 'Eleições órgãos sociais FGP – 1.ª volta',
-      fact: 'Após a contagem dos votos, foram detetadas irregularidades no apuramento eleitoral e na elaboração da ata da eleição, designadamente ao nível da declaração de votos nulos que viriam a ser revertidos por deliberação posterior da Mesa da Assembleia Geral, matéria que deu origem ao Processo TAD n.º 1/2025',
+      fact: [
+        'Após a contagem dos votos, foram detetadas irregularidades no apuramento eleitoral e na elaboração da ata da eleição, designadamente ao nível da declaração de votos nulos, cuja validade viria posteriormente a ser reconhecida por deliberação da MAG, matéria que deu origem ao Processo TAD n.º 1/2025.',
+        'Adicionalmente, a ata do ato eleitoral foi elaborada unilateralmente pelo então Presidente da MAG e posteriormente contestada, sem que tivesse sido objeto de correção ou retificação. A referida ata nunca foi assinada pelos mandatários das listas concorrentes, em violação do disposto no n.º 3 do artigo 8.º do REFGP',
       tone: 'negative',
       documents: [
         {
-          label: 'Exposição de contestação',
-          source: 'Interessados',
-          url: 'https://example.com/documentos/contestacao-procedimentos.pdf'
+          label: 'Ata da Assembleia Geral Eleitoral (divulgada a 16dez)',
+          source: 'FGP',
+          url: '${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata_AG Eleitoral_15 dezembro.pdf'
         }
+        
       ]
     },
     {
-      date: 'Junho 2024',
-      title: 'Assembleia Geral',
-      fact: 'Realizou-se a Assembleia Geral, com registo dos principais pontos discutidos e respetivas deliberações.',
+      date: '16 a 27 dezembro 2024',
+      title: 'Ofícios OF0089, OF0090, OF0094, OF0097/2024 - Violação REFGP',
+      fact: 'Recusa da publicação dos resultados eleitorais definitivos no site da FGP (violação do art.º 11.º do REFGP). ',
       tone: 'neutral',
       documents: [
         {
