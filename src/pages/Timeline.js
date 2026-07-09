@@ -66,6 +66,12 @@ function Timeline() {
     //   ]
     // },
     {
+      date: '2024',
+      title: 'Atas de 2024',
+      fact: 'A ata 181 de Assembleias Geral realizada em 2024 nunca foi divulgada. Por outro lado, a ata 180 da AG de 24 de novembro, está publicada no site da FGP, mas não foi aprovada em AG nem tem folha de presenças dos delegados.',
+      tone: 'negative',
+    },
+    {
       date: '4 junho 2024',
       title: 'Publicação dos Estatutos Alterados da FGP no Portal da Justiça',
       fact: [
