@@ -233,16 +233,30 @@ function Timeline() {
     },
     {
       date: '6 novembro 2025',
-      title: 'Comunicado Direção FGP - recurso no TCAS',
+      title: 'Carta da Direção FGP - recurso no TCAS',
       fact: 
-        'Segundo o advogado da FGP, a decisão do TAD referida não é definitiva, nem produz efeitos executórios, pelo que não existe qualquer obrigação de realizar novas eleições. 
+        'Segundo o advogado da FGP, a decisão do TAD referida não é definitiva, nem produz efeitos executórios, pelo que não existe qualquer obrigação de realizar novas eleições.',
         'No comunicado a FGP indica ter submetido um recurso no Tribunal Central Administrativo Sul.',
+      tone: 'alert',
+      documents: [
+        {
+          label: 'Carta Direção FGP',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Carta Direção FGP - 6Nov25.pdf`
+        }
+      ]
+    },
+    {
+      date: '11 novembro 2025',
+      title: 'Comunicado Direção FGP',
+      fact: 
+        '',
       tone: 'alert',
       documents: [
         {
           label: 'Comunicado Direção FGP',
           source: 'FGP',
-          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Comunicado Direção FGP - 6Nov25.pdf`
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Comunicado Direção FGP - 11Nov25.pdf`
         }
       ]
     },
