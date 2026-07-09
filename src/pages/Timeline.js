@@ -171,7 +171,7 @@ function Timeline() {
         'Para o preenchimento da vaga existente, existiam dois suplentes da mesma lista, os quais declinaram igualmente a assunção das funções para que haviam sido candidatos.',
         'Em consequência, a Lista A deixou de assegurar representação efetiva neste órgão.',
         'Não tendo sido encontrada uma solução junto das restantes listas que permitisse suprir a vaga existente, a FGP comunicou, em 18 de junho, a realização de novo ato eleitoral para este órgão, agendado para o dia 20 de julho.',
-      ]
+      ],
       tone: 'alert',
       documents: [
         {
