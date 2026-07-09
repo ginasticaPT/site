@@ -96,7 +96,7 @@ function Timeline() {
         {
           label: 'Ata da Assembleia Geral Eleitoral',
           source: 'FGP',
-          url: '${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata_AG Eleitoral_15 dezembro.pdf'
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata_AG Eleitoral_15 dezembro.pdf`
         }
         
       ]
