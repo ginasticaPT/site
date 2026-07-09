@@ -88,13 +88,15 @@ function Timeline() {
       date: '15 dezembro 2024',
       title: 'Eleições órgãos sociais FGP – 1.ª volta',
       fact: [
+        'De acordo com a contagem de votos registada, os órgãos Conselho de Disciplina e Conselho de Justiça foram eleitos sem que tenham sido reconhecidos (violação do art.º 13.º do REFGP). Os restantes órgãos obrigariam a uma 2ª volta.',
         'Após a contagem dos votos, foram detetadas irregularidades no apuramento eleitoral e na elaboração da ata da eleição, designadamente ao nível da declaração de votos nulos, cuja validade viria posteriormente a ser reconhecida por deliberação da MAG, matéria que deu origem ao Processo TAD n.º 1/2025.',
         'Adicionalmente, a ata do ato eleitoral foi elaborada unilateralmente pelo então Presidente da MAG e posteriormente contestada, sem que tivesse sido objeto de correção ou retificação. A referida ata nunca foi assinada pelos mandatários das listas concorrentes, em violação do disposto no n.º 3 do artigo 8.º do REFGP',
+        'Ausência da publicação dos resultados eleitorais definitivos no site da FGP (violação do art.º 11.º do REFGP). A ata do ato eleitoral apenas foi disponibilizada aos delegados, a 16 de dezembro.'
       ],
       tone: 'negative',
       documents: [
         {
-          label: 'Ata da Assembleia Geral Eleitoral',
+          label: 'Ata da Assembleia Geral Eleitoral 15dez - violação artºs 8º e 11º do REFGP',
           source: 'FGP',
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata_AG Eleitoral_15 dezembro.pdf`
         }
@@ -102,46 +104,50 @@ function Timeline() {
       ]
     },
     {
-      date: '16 a 27 dezembro 2024',
-      title: 'Ofícios OF0089, OF0090, OF0094, OF0097/2024 - Violação REFGP',
-      fact: 'Recusa da publicação dos resultados eleitorais definitivos no site da FGP (violação do art.º 11.º do REFGP). ',
-      tone: 'neutral',
+      date: '23 dezembro 2024',
+      title: 'Comunicado Presidente MAG - violação art.ºs 30º e 32º do REFGP',
+      fact: 'Às 22h19 de 23 de dezembro, em pleno período natalício e sem qualquer espaço temporal legal, o Presidente da MAG, unilateralmente, comunica que no dia 26 de dezembro, às 14h00, votos que foram considerados nulos pelos próprios durante o processo eleitoral de dia 15 de dezembro, tendo por base uma reclamação que não podia ser atendida nem mesmo apresentada devido à sua extemporaneidade.',
+      tone: 'negative',
       documents: [
         {
-          label: 'Ata da Assembleia Geral',
+          label: 'Comunicado Presidente MAG',
           source: 'FGP',
-          url: 'https://example.com/documentos/ata-assembleia-geral.pdf'
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - 24 Dez 24 - Comunicado Presidente MAG.pdf`
         }
       ]
     },
     {
-      date: 'Julho 2024',
-      title: 'Submissão ao TAD e IPDJ',
-      fact: 'Foram remetidos elementos para apreciação externa, reforçando o pedido de análise institucional.',
+      date: '26 dezembro 2024',
+      title: 'Eleições órgãos sociais FGP – Abertura votos nulos',
+      fact: 'Com a presença do Presidente da MAG, que igualmente presidia à Comissão Eleitoral, de Joana Ramalho, membro da Comissão Eleitoral, e de Teresa Loureiro, representante da Lista A, foram reabertos dois votos anteriormente considerados nulos. Da reapreciação destes votos resultou o apuramento dos resultados constantes da ata elaborada na ocasião, tendo sido nela proclamada a eleição dos órgãos Presidente, Direção e MAG da FGP. A mesma ata procedeu ainda à proclamação dos resultados dos órgãos Conselho de Disciplina e Conselho de Justiça, anteriormente eleitos em 15 de dezembro.',
+      tone: 'negative',
+      documents: [
+        {
+          label: 'Ata da Assembleia Geral Eleitoral 26dez',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata AG Eleitoral_ 26 dezembro.pdf`
+        }
+      ]
+    },
+    {
+      date: '11 janeiro 2025',
+      title:' Eleições órgãos sociais FGP – 2.ª volta',
+      fact: [
+        'A convocatória da 2ª volta é divulgada a 27 de dezembro após a divulgação da ata da sessão realizada a 26 de dezembro.',
+        'A realização da 2.ª volta ocorreu para além do prazo de oito dias contado da data da 1.ª volta, violando o art.º 13º, nº5, do REFGP.',
+        'Considerando os resultados apurados em 15 de dezembro e a reapreciação dos votos nulos efetuada em 26 de dezembro, a convocatória para a 2.ª volta abrangeu apenas a eleição dos órgãos Conselho Fiscal e Conselho de Ajuizamento.',
+      ],
       tone: 'alert',
       documents: [
         {
-          label: 'Submissão para o TAD',
-          source: 'Requerente',
-          url: 'https://example.com/documentos/submissao-tad.pdf'
+          label: 'Convocatória 2ª volta das Eleições para os Órgãos Sociais da FGP',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - CC0167 - Convocatória 2ª volta das Eleições para os Órgãos Sociais da FGP.pdf`
         },
         {
-          label: 'Submissão para o IPDJ',
-          source: 'Requerente',
-          url: 'https://example.com/documentos/submissao-ipdj.pdf'
-        }
-      ]
-    },
-    {
-      date: 'Setembro 2024',
-      title: 'Atualização do Dossiê',
-      fact: 'Novos documentos e cronologia consolidada foram disponibilizados para maior transparência.',
-      tone: 'positive',
-      documents: [
-        {
-          label: 'Dossiê consolidado',
-          source: 'Arquivo público',
-          url: 'https://example.com/documentos/dossie-consolidado.pdf'
+          label: 'Ata da Assembleia Geral Eleitoral 11jan - não divulgada',
+          source: 'FGP',
+          //url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata AG Eleitoral_ 26 dezembro.pdf`
         }
       ]
     }
