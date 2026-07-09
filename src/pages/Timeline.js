@@ -162,6 +162,16 @@ function Timeline() {
           //url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata AG Eleitoral_ 26 dezembro.pdf`
         }
       ]
+    },
+    {
+      date: '20 julho 2025',
+      title: 'Eleições intercalares – Conselho de Disciplina',
+      fact: [
+        'Nas eleições realizadas em 15 de dezembro, os Delegados elegeram para este órgão dois membros da Lista B e um membro da Lista A. Todos os eleitos tomaram posse; contudo, o representante da Lista A apresentou a sua renúncia ao cargo pouco depois da tomada de posse.',
+        'Para o preenchimento da vaga existente, existiam dois suplentes da mesma lista, os quais declinaram igualmente a assunção das funções para que haviam sido candidatos.',
+        'Em consequência, a Lista A deixou de assegurar representação efetiva neste órgão.',
+        'Não tendo sido encontrada uma solução junto das restantes listas que permitisse suprir a vaga existente, a FGP comunicou, em 18 de junho, a realização de novo ato eleitoral para este órgão, agendado para o dia 20 de julho.',
+      tone: 'alert',
     }
   ];
 
