@@ -12,6 +12,7 @@ function Timeline() {
     { short: 'AG', meaning: 'Assembleia Geral' },
     { short: 'REFGP', meaning: 'Regulamento Eleitoral da Federação de Ginástica de Portugal' },
     { short: 'TAD', meaning: 'Tribunal Arbitral do Desporto' },
+    { short: 'TCAS', meaning: 'Tribunal Central Administrativo Sul' },
     { short: 'IPDJ', meaning: 'Instituto Português do Desporto e Juventude' }
   ];
 
@@ -200,7 +201,7 @@ function Timeline() {
       documents: [
         {
           label: 'Acórdão TAD',
-          source: 'FGP',
+          source: 'TAD',
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Acórdão 1_2025 VF_03_11_2025.pdf`
         }
       ]
@@ -212,7 +213,7 @@ function Timeline() {
       documents: [
         {
           label: 'Requerimento à oposição de publicação da decisão do TAD',
-          source: 'FGP',
+          source: 'TAD',
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Requerimento Oposição à Publicidade_04_11_2025.pdf`
         }
       ]
@@ -225,8 +226,23 @@ function Timeline() {
       documents: [
         {
           label: 'Requerimento à oposição de publicação da decisão do TAD',
-          source: 'FGP',
+          source: 'TAD',
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Despacho n.º 8_05_11_2025.pdf`
+        }
+      ]
+    },
+    {
+      date: '6 novembro 2025',
+      title: 'Comunicado Direção FGP - recurso no TCAS',
+      fact: 
+        'Segundo o advogado da FGP, a decisão do TAD referida não é definitiva, nem produz efeitos executórios, pelo que não existe qualquer obrigação de realizar novas eleições. 
+        'No comunicado a FGP indica ter submetido um recurso no Tribunal Central Administrativo Sul.',
+      tone: 'alert',
+      documents: [
+        {
+          label: 'Comunicado Direção FGP',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Comunicado Direção FGP - 6Nov25.pdf`
         }
       ]
     },
