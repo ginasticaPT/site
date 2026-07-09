@@ -250,7 +250,7 @@ function Timeline() {
     {
       date: '11 novembro 2025',
       title: 'Comunicado Direção FGP',
-      fact: 'x',
+      fact: 'A Direção da FGP informou a Mesa da Assembleia Geral para dar início ao processo eleitoral',
       tone: 'alert',
       documents: [
         {
