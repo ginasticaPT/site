@@ -1,17 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './pages/Home';
+import Timeline from './pages/Timeline';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>FEDERAÇÃO DE GINÁSTICA DE PORTUGAL - PROCESSO TAD, IPDJ e AG</h1>
-        <h2>Uma história contada através dos factos</h2>
-        <p>Uma viagem através de decisões, acontecimentos e momentos que moldaram o processo eleitoral e os acontecimentos da Assembleia Geral da Federação de Ginástica de Portugal desde 2024. Cada evento é acompanhado pelas evidências e documentos disponíveis, permitindo-lhe construir a sua própria interpretação dos factos.</p>
-      </header>
-    </div>
+    <Router basename="/site">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/timeline" element={<Timeline />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
-
