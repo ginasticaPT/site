@@ -6,7 +6,6 @@ function Timeline() {
   const IMAGES_BASE_URL = `${process.env.PUBLIC_URL}/images`;
   const DOCUMENTS_BASE_URL = `${process.env.PUBLIC_URL}/documents`;
   const getImageUrl = (fileName) => `${IMAGES_BASE_URL}/${encodeURIComponent(fileName)}`;
-  const getDocumentUrl = (fileName) => `${DOCUMENTS_BASE_URL}/${encodeURIComponent(fileName)}`;
 
   const acronyms = [
     { short: 'FGP', meaning: 'Federação de Ginástica de Portugal' },
