@@ -188,7 +188,7 @@ function Timeline() {
         {
           label: 'Ata da AG Eleitoral intercalar',
           source: 'FGP',
-          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Ata AG Eleitoral Intercalar - Conselho Disciplina - 20 Jul 25.pdf`
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Ata AG Eleitoral Intercalar - Conselho Disciplina - 20Jul25_signed_signed.pdf`
         }
       ]
     },
@@ -202,6 +202,31 @@ function Timeline() {
           label: 'Acórdão TAD',
           source: 'FGP',
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Acórdão 1_2025 VF_03_11_2025.pdf`
+        }
+      ]
+    },
+    {
+      date: '4 novembro 2025',
+      title: 'FGP Solicita ao TAD que a decisão arbitral de 3 de novembro não seja tomada pública',
+      tone: 'positive',
+      documents: [
+        {
+          label: 'Requerimento à oposição de publicação da decisão do TAD',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Requerimento Oposição à Publicidade_04_11_2025.pdf`
+        }
+      ]
+    },
+    {
+      date: '5 novembro 2025',
+      title: 'TAD indefere o pedido da FGP de 4 de novembro',
+      fact:'Para além do TAD ter indeferido o pedido da FGP, em resumo, o TAD considera inconstitucional a norma invocada pela FGP e reafirmou o princípio da publicidade e transparência das decisões judiciais.'
+      tone: 'positive',
+      documents: [
+        {
+          label: 'Requerimento à oposição de publicação da decisão do TAD',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Despacho n.º 8_05_11_2025.pdf`
         }
       ]
     },
