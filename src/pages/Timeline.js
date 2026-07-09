@@ -4,7 +4,30 @@ import '../styles/Timeline.css';
 
 function Timeline() {
   const IMAGES_BASE_URL = `${process.env.PUBLIC_URL}/images`;
+  const DOCUMENTS_BASE_URL = `${process.env.PUBLIC_URL}/documents`;
   const getImageUrl = (fileName) => `${IMAGES_BASE_URL}/${encodeURIComponent(fileName)}`;
+  const getDocumentUrl = (fileName) => `${DOCUMENTS_BASE_URL}/${encodeURIComponent(fileName)}`;
+
+  const acronyms = [
+    { short: 'FGP', meaning: 'Federação de Ginástica de Portugal' },
+    { short: 'MAG', meaning: 'Mesa da Assembleia Geral' },
+    { short: 'AG', meaning: 'Assembleia Geral' },
+    { short: 'TAD', meaning: 'Tribunal Arbitral do Desporto' },
+    { short: 'IPDJ', meaning: 'Instituto Português do Desporto e Juventude' }
+  ];
+
+  const generalSupportDocuments = [
+    {
+      label: 'Estatutos da FGP (2024)',
+      source: 'FGP',
+      url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Estatutos.pdf`
+    },
+    {
+      label: 'Regulamento Eleitoral da FGP (2024)',
+      source: 'FGP',
+      url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Regulamento Eleitoral.pdf`
+    }
+  ];
 
   const events = [
     // {
@@ -44,7 +67,7 @@ function Timeline() {
     //   ]
     // },
     {
-      date: '4 de junho',
+      date: '4 junho 2024',
       title: 'Publicação dos Estatutos Alterados da FGP no Portal da Justiça',
       fact: [
           'Publicação da alteração estatutária no Portal da Justiça acontece apenas a 24 de novembro de 2024. ',
@@ -63,10 +86,10 @@ function Timeline() {
       ]
     },
     {
-      date: 'Maio 2024',
-      title: 'Contestação de Procedimentos',
-      fact: 'Algumas decisões processuais foram contestadas por agentes desportivos, com base em documentação pública.',
-      tone: 'alert',
+      date: '15 dezembro 2024',
+      title: 'Eleições órgãos sociais FGP – 1.ª volta',
+      fact: 'Após a contagem dos votos, foram detetadas irregularidades no apuramento eleitoral e na elaboração da ata da eleição, designadamente ao nível da declaração de votos nulos que viriam a ser revertidos por deliberação posterior da Mesa da Assembleia Geral, matéria que deu origem ao Processo TAD n.º 1/2025',
+      tone: 'negative',
       documents: [
         {
           label: 'Exposição de contestação',
@@ -132,6 +155,32 @@ function Timeline() {
         <p>Cada evento é acompanhado pelas evidências e documentos disponíveis, permitindo-lhe construir a sua própria interpretação dos factos.</p>
       </header>
       <div className="timeline-content">
+        <section className="timeline-legend" aria-label="Siglas e documentos gerais">
+          <div className="timeline-legend-card">
+            <h2>Siglas</h2>
+            <ul>
+              {acronyms.map((item) => (
+                <li key={item.short}>
+                  <strong>{item.short}</strong>
+                  <span>{item.meaning}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="timeline-legend-card">
+            <h2>Documentos de suporte gerais</h2>
+            <ul>
+              {generalSupportDocuments.map((document) => (
+                <li key={document.label}>
+                  <a href={document.url} target="_blank" rel="noreferrer">
+                    {document.label}
+                  </a>
+                  <span>{document.source}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
         <div className="vertical-timeline" aria-label="Cronologia vertical de eventos">
           {events.map((event, index) => (
             <article
