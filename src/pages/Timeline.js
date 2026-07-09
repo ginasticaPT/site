@@ -220,7 +220,7 @@ function Timeline() {
     {
       date: '5 novembro 2025',
       title: 'TAD indefere o pedido da FGP de 4 de novembro',
-      fact:'Para além do TAD ter indeferido o pedido da FGP, em resumo, o TAD considera inconstitucional a norma invocada pela FGP e reafirmou o princípio da publicidade e transparência das decisões judiciais.'
+      fact:'Para além do TAD ter indeferido o pedido da FGP, em resumo, o TAD considera inconstitucional a norma invocada pela FGP e reafirmou o princípio da publicidade e transparência das decisões judiciais.',
       tone: 'positive',
       documents: [
         {
