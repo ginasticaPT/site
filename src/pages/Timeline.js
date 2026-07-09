@@ -162,7 +162,7 @@ function Timeline() {
           //url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata AG Eleitoral_ 26 dezembro.pdf`
         }
       ]
-    }
+    },
     {
       date: '20 julho 2025',
       title: 'Eleições intercalares – Conselho de Disciplina',
