@@ -251,7 +251,8 @@ function Timeline() {
       date: '10 a 15 novembro 2025',
       title: 'Delegados solicitam AG Extraordinária para marcação de eleições',
       fact: [
-        '11 delegados, que representam 23% da AG, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária para definir a marcação da data, hora e local das eleições, em obediência ao disposto nos Estatutos e no REFPG, no prazo máximo de 15 dias após a notificação do Tribunal Arbitral do Desporto.\nNota: Esta AG nunca chegou a ser convocada.'
+        '11 delegados, que representam 23% da AG, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária para definir a marcação da data, hora e local das eleições, em obediência ao disposto nos Estatutos e no REFPG, no prazo máximo de 15 dias após a notificação do Tribunal Arbitral do Desporto.',
+        'NOTA: Esta AG nunca chegou a ser convocada pela MAG.'
         ]
       tone: 'negative',
     },
