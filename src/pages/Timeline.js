@@ -137,7 +137,7 @@ function Timeline() {
         'A realização da 2.ª volta ocorreu para além do prazo de oito dias contado da data da 1.ª volta, violando o art.º 13º, nº5, do REFGP.',
         'Considerando os resultados apurados em 15 de dezembro e a reapreciação dos votos nulos efetuada em 26 de dezembro, a convocatória para a 2.ª volta abrangeu apenas a eleição dos órgãos Conselho Fiscal e Conselho de Ajuizamento.',
       ],
-      tone: 'alert',
+      tone: 'positive',
       documents: [
         {
           label: 'Convocatória 2ª volta das Eleições para os Órgãos Sociais da FGP',
@@ -145,7 +145,7 @@ function Timeline() {
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - CC0167 - Convocatória 2ª volta das Eleições para os Órgãos Sociais da FGP.pdf`
         },
         {
-          label: 'Ata da Assembleia Geral Eleitoral 11jan - não divulgada',
+          label: 'Ata da Assembleia Geral Eleitoral 11jan (não divulgada)',
           source: 'FGP',
           //url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata AG Eleitoral_ 26 dezembro.pdf`
         }
