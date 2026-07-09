@@ -90,10 +90,11 @@ function Timeline() {
       fact: [
         'Após a contagem dos votos, foram detetadas irregularidades no apuramento eleitoral e na elaboração da ata da eleição, designadamente ao nível da declaração de votos nulos, cuja validade viria posteriormente a ser reconhecida por deliberação da MAG, matéria que deu origem ao Processo TAD n.º 1/2025.',
         'Adicionalmente, a ata do ato eleitoral foi elaborada unilateralmente pelo então Presidente da MAG e posteriormente contestada, sem que tivesse sido objeto de correção ou retificação. A referida ata nunca foi assinada pelos mandatários das listas concorrentes, em violação do disposto no n.º 3 do artigo 8.º do REFGP',
+      ],
       tone: 'negative',
       documents: [
         {
-          label: 'Ata da Assembleia Geral Eleitoral (divulgada a 16dez)',
+          label: 'Ata da Assembleia Geral Eleitoral',
           source: 'FGP',
           url: '${process.env.PUBLIC_URL}/documents/FGP - 2024 - Ata_AG Eleitoral_15 dezembro.pdf'
         }
