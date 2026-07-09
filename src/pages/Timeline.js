@@ -171,6 +171,7 @@ function Timeline() {
         'Para o preenchimento da vaga existente, existiam dois suplentes da mesma lista, os quais declinaram igualmente a assunção das funções para que haviam sido candidatos.',
         'Em consequência, a Lista A deixou de assegurar representação efetiva neste órgão.',
         'Não tendo sido encontrada uma solução junto das restantes listas que permitisse suprir a vaga existente, a FGP comunicou, em 18 de junho, a realização de novo ato eleitoral para este órgão, agendado para o dia 20 de julho.',
+        'Importa salientar que, no âmbito destas eleições, não foi apresentada pela MAG nem pela Comissão Eleitoral qualquer relação de delegados que se encontrassem em situação de perda de mandato ou em desconformidade com as disposições estatutárias aplicáveis.',
       ],
       tone: 'alert',
       documents: [
@@ -190,7 +191,20 @@ function Timeline() {
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Ata AG Eleitoral Intercalar - Conselho Disciplina - 20 Jul 25.pdf`
         }
       ]
-    }
+    },
+    {
+      date: '3 novembro 2025',
+      title: 'TAD anula atos eleitorais de dezembro de 2024',
+      fact: 'O Tribunal foi claro “A violação de normas imperativas – dos artigos 31.º e 32.º do Regulamento Eleitoral e do artigo 5.º do Decreto-Lei n.º 248-B/2008 – invalida as deliberações da Mesa da Assembleia Geral e o ato eleitoral subsequente, por violação dos princípios da democraticidade e da transparência.”. Em consequência, o TAD anulou todo o processo eleitoral, de 15 e 26 de dezembro de 2024, bem como a segunda volta de 11 de janeiro de 2025, e ordenou a marcação de novo ato eleitoral, no prazo de 15 dias.',
+      tone: 'positive',
+      documents: [
+        {
+          label: 'Acórdão TAD',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Acórdão 1_2025 VF_03_11_2025.pdf`
+        }
+      ]
+    },
   ];
 
   return (
