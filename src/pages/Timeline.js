@@ -66,12 +66,6 @@ function Timeline() {
     //   ]
     // },
     {
-      date: '2024',
-      title: 'Atas de 2024',
-      fact: 'A ata 181 de Assembleias Geral realizada em 2024 nunca foi divulgada. Por outro lado, a ata 180 da AG de 24 de novembro, está publicada no site da FGP, mas não foi aprovada em AG nem tem folha de presenças dos delegados.',
-      tone: 'negative',
-    },
-    {
       date: '4 junho 2024',
       title: 'Publicação dos Estatutos Alterados da FGP no Portal da Justiça',
       fact: [
@@ -136,6 +130,18 @@ function Timeline() {
       ]
     },
     {
+      date: '2024',
+      title: 'Atas de 2024',
+      fact: 'A ata 181 de Assembleias Geral realizada em 2024 nunca foi divulgada. Por outro lado, a ata 180 da AG de 24 de novembro, está publicada no site da FGP, mas não foi aprovada em AG nem tem folha de presenças dos delegados.',
+      tone: 'negative',
+    },
+    {
+      date: '6 janeiro 2025',
+      title: 'Entrada do processo 1/2025 no TAD',
+      fact: 'Objeto: Contencioso eleitoral, cuja demandada é a FGP.',
+      tone: 'negative',
+    },
+    {
       date: '11 janeiro 2025',
       title:' Eleições órgãos sociais FGP – 2.ª volta',
       fact: [
@@ -157,6 +163,33 @@ function Timeline() {
         }
       ]
     }
+    {
+      date: '20 julho 2025',
+      title: 'Eleições intercalares – Conselho de Disciplina',
+      fact: [
+        'Nas eleições realizadas em 15 de dezembro, os Delegados elegeram para este órgão dois membros da Lista B e um membro da Lista A. Todos os eleitos tomaram posse; contudo, o representante da Lista A apresentou a sua renúncia ao cargo pouco depois da tomada de posse.',
+        'Para o preenchimento da vaga existente, existiam dois suplentes da mesma lista, os quais declinaram igualmente a assunção das funções para que haviam sido candidatos.',
+        'Em consequência, a Lista A deixou de assegurar representação efetiva neste órgão.',
+        'Não tendo sido encontrada uma solução junto das restantes listas que permitisse suprir a vaga existente, a FGP comunicou, em 18 de junho, a realização de novo ato eleitoral para este órgão, agendado para o dia 20 de julho.',
+      tone: 'alert',
+      documents: [
+        {
+          label: 'Comunicado FGP - Conselho de Disciplina',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Comunicado - situação Conselho Disciplina - 18Jun25.pdf`
+        },
+        {
+          label: 'Convocatória Eleições intercalares – Conselho de Disciplina',
+          source: 'FGP',
+          //url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - CC108 - Convocatória AG Eleitoral - Conselho Disciplina.pdf`
+        },
+        {
+          label: 'Ata da AG Eleitoral intercalar',
+          source: 'FGP',
+          //url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Ata AG Eleitoral Intercalar - Conselho Disciplina - 20 Jul 25.pdf`
+        }
+      ]
+    },
   ];
 
   return (
