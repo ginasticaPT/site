@@ -9,7 +9,7 @@ function Timeline() {
         <Link to="/">
           <button className="back-button">← Voltar</button>
         </Link>
-        <h1>Timeline - Processo TAD, IPDJ e AG</h1>
+        <h1>Cronologia</h1>
       </header>
       <div className="timeline-content">
         <p>Timeline content will go here...</p>
