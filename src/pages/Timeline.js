@@ -243,7 +243,7 @@ function Timeline() {
         {
           label: 'Carta Direção FGP',
           source: 'FGP',
-          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Carta Direção FGP - 6Nov25.pdf`
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Carta da Direção FGP - 6Nov25.pdf`
         }
       ]
     },
