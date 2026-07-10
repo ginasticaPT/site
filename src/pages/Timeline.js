@@ -237,6 +237,7 @@ function Timeline() {
       fact: [
         'Segundo o advogado da FGP, a decisão do TAD referida não é definitiva, nem produz efeitos executórios, pelo que não existe qualquer obrigação de realizar novas eleições.',
         'No comunicado a FGP indica ter submetido um recurso no Tribunal Central Administrativo Sul.',
+        'NOTA: importa esclarecer que afinal o recurso que a FGP diz ter submetido no TCAS foi apenas submetido a 24 e novembro.',
       ],
       tone: 'alert',
       documents: [
@@ -288,10 +289,15 @@ function Timeline() {
       fact: [
         'No seguimento da contestação dos delegados ao anúncio eleitorial de 18 de novembro sobre a marcação de eleições para delegados à assembleia geral, foi apresentado ao TAD um pedido de de esclarecimento sobre se a decisão de 3 de novembro — que determinou a repetição das eleições — se incluíria também a eleição dos Delegados à Assembleia Geral.',
         'O TAD confirmou, por unanimidade dos árbitros, que a decisão incide apenas sobre as eleições dos órgãos federativos e não abrange a eleição dos Delegados.',
-        'O Tribunal refere de forma explícita: “O ato eleitoral para órgãos federativos […] é distinto do ato eleitoral para a eleição de delegados. […] É o ato eleitoral para órgãos federativos que […] se encontra viciado, pelo que é o ato eleitoral para órgãos federativos que deverá ser repetido, com os mesmos delegados já eleitos previamente. (Despacho n. 9_25_11_2025)',
+        'O Tribunal refere de forma explícita: “O ato eleitoral para órgãos federativos […] é distinto do ato eleitoral para a eleição de delegados. […] É o ato eleitoral para órgãos federativos que […] se encontra viciado, pelo que é o ato eleitoral para órgãos federativos que deverá ser repetido, com os mesmos delegados já eleitos previamente." (Despacho n. 9_25_11_2025)',
         ],
       tone: 'alert',
       documents: [
+        {
+          label: 'Pedido de esclarecimento da FGP no TAD',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Comunicado de esclarecimento da CC0154.pdf`
+        },
         {
           label: 'Despacho - Repetição de eleições com os mesmos delegados já eleitos previamente',
           source: 'TAD',
