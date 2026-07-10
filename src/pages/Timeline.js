@@ -66,25 +66,25 @@ function Timeline() {
     //     }
     //   ]
     // },
-    {
-      date: '4 junho 2024',
-      title: 'Publicação dos Estatutos Alterados da FGP no Portal da Justiça',
-      fact: [
-          'Publicação da alteração estatutária no Portal da Justiça acontece apenas a 24 de novembro de 2024. ',
-          'A partir desta data, a alteração estatutária que introduz, entre outras disposições, a alínea d) do n.º 1 do artigo 32.º dos Estatutos — que prevê a perda de mandato dos delegados por falta a duas Assembleias Gerais consecutivas ou quatro interpoladas — passa a produzir plenamente os seus efeitos, competindo à Mesa da Assembleia Geral proceder ao registo, contabilização e divulgação das faltas para os efeitos estatutariamente previstos.',
-      ],
-      tone: 'alert',
-      // Add the image file name after placing it in public/images (e.g. "estatutos-portal-justica.jpg")
-      image: 'print publicação estatutos.jpg.png',
-      imageCaption: 'Figura 1 — No site da FGP são apresentadas duas datas para a Publicação dos estatutos no Portal da Justiça.',
-      documents: [
-        {
-          label: 'Publicação estatutos 2024 no Portal da Justiça',
-          source: 'FGP',
-          url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Publicação estatutos.pdf`
-        }
-      ]
-    },
+    // {
+    //   date: '4 junho 2024',
+    //   title: 'Publicação dos Estatutos Alterados da FGP no Portal da Justiça',
+    //   fact: [
+    //       'Publicação da alteração estatutária no Portal da Justiça acontece apenas a 24 de novembro de 2024. ',
+    //       'A partir desta data, a alteração estatutária que introduz, entre outras disposições, a alínea d) do n.º 1 do artigo 32.º dos Estatutos — que prevê a perda de mandato dos delegados por falta a duas Assembleias Gerais consecutivas ou quatro interpoladas — passa a produzir plenamente os seus efeitos, competindo à Mesa da Assembleia Geral proceder ao registo, contabilização e divulgação das faltas para os efeitos estatutariamente previstos.',
+    //   ],
+    //   tone: 'alert',
+    //   // Add the image file name after placing it in public/images (e.g. "estatutos-portal-justica.jpg")
+    //   image: 'print publicação estatutos.jpg.png',
+    //   imageCaption: 'Figura 1 — No site da FGP são apresentadas duas datas para a Publicação dos estatutos no Portal da Justiça.',
+    //   documents: [
+    //     {
+    //       label: 'Publicação estatutos 2024 no Portal da Justiça',
+    //       source: 'FGP',
+    //       url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Publicação estatutos.pdf`
+    //     }
+    //   ]
+    // },
     {
       date: '15 dezembro 2024',
       title: 'Eleições órgãos sociais FGP – 1.ª volta',
@@ -130,12 +130,12 @@ function Timeline() {
         }
       ]
     },
-    {
-      date: '2024',
-      title: 'Atas de 2024',
-      fact: 'A ata 181 de Assembleias Geral realizada em 2024 nunca foi divulgada. Por outro lado, a ata 180 da AG de 24 de novembro, está publicada no site da FGP, mas não foi aprovada em AG nem tem folha de presenças dos delegados.',
-      tone: 'negative',
-    },
+    // {
+    //   date: '2024',
+    //   title: 'Atas de 2024',
+    //   fact: 'A ata 181 de Assembleias Geral realizada em 2024 nunca foi divulgada. Por outro lado, a ata 180 da AG de 24 de novembro, está publicada no site da FGP, mas não foi aprovada em AG nem tem folha de presenças dos delegados.',
+    //   tone: 'negative',
+    // },
     {
       date: '6 janeiro 2025',
       title: 'Entrada do processo 1/2025 no TAD',
