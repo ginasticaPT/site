@@ -382,7 +382,7 @@ function Timeline() {
       date: '12 fevereiro 2026',
       title: 'Declaração de perda de mandato de delegados por parte da CE',
       fact: [
-        'Nesta data, 5 delegados são informados que devido a faltas a duas sessões seguidas ou quatro interpoladas da assembleia geral, perdem automaticamente o mandato.'
+        'Nesta data, 5 delegados são informados que devido a faltas a duas sessões seguidas ou quatro interpoladas da assembleia geral, perdem automaticamente o mandato.',
         'Esta decisão, de perda, compete exclusivamente à AG, de acordo com o art.º 32, nº2, dos estatutos, que é claro que Compete à Assembleia Geral deliberar sobre a perda do mandato dos titulares dos órgãos federativos, em conformidade com os estatutos e a lei.',
       ],
       tone: 'negative',
