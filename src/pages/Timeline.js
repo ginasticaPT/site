@@ -305,6 +305,32 @@ function Timeline() {
         }
       ]
     },
+    {
+      date: '26 novembro 2025',
+      title: 'Anúncio de Ato Eleitoral para os órgãos sociais da FGP',
+      fact:'No seguimento do esclarecimento do TAD a proceder, brevemente, ao proceder ao anúncio da data das eleições.',
+      tone: 'alert',
+      documents: [
+        {
+          label: 'Anúncio ato eleitoral (brevemente)',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - CC 0158 - Anúncio de Ato Eleitoral.pdf`
+        }
+      ]
+    },
+    {
+      date: '13 dezembro 2025',
+      title: 'Convocatória de Assembleia Geral Ordinária',
+      fact: 'Nesta cronologia, para esta convocatória, importa salientar que não foi apresentada pela MAG qualquer relação de delegados que se encontrassem em situação de perda de mandato ou em desconformidade com as disposições estatutárias aplicáveis.',
+      tone: 'positive',
+      documents: [
+        {
+          label: 'Convocatória de Assembleia Geral Ordinária',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - CC0159 Convocatória AG Ordinária - Plano Atividades Orçamento 2026.pdf`
+        }
+      ]
+    },
   ];
 
   return (
