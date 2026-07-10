@@ -307,7 +307,7 @@ function Timeline() {
     },
     {
       date: '26 novembro 2025',
-      title: 'Anúncio de Ato Eleitoral para os órgãos sociais da FGP',
+      title: 'Anúncio de Ato Eleitoral para os órgãos sociais da FGP (brevemente)',
       fact:'No seguimento do esclarecimento do TAD a proceder, brevemente, ao proceder ao anúncio da data das eleições.',
       tone: 'alert',
       documents: [
@@ -315,6 +315,44 @@ function Timeline() {
           label: 'Anúncio ato eleitoral (brevemente)',
           source: 'FGP',
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - CC 0158 - Anúncio de Ato Eleitoral.pdf`
+        }
+      ]
+    },
+    {
+      date: '2 dezembro 2025',
+      title: 'Delegados solicitam AG Extraordinária',
+      fact: [
+        '17 delegados, que representam 35% da AG, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária.',
+        'NOTA: Esta AG nunca chegou a ser convocada pela MAG.',
+        ],
+      tone: 'negative',
+    },
+    {
+      date: '8 dezembro 2025',
+      title: 'Anúncio de Ato Eleitoral para órgãos sociais da FGP',
+      fact: [
+        'Neste anúncio é clara a opinião da FGP sobre a não competência do TAD.',
+        'Para este novo ato, a FGP já considerará a pausa natalícia e considera "adqueado" a marcação do novo ato eleitoral para 28 de fevereiro, 3 meses após a decisão do TAD.',
+      ],
+      tone: 'positive',
+      documents: [
+        {
+          label: 'Anúncio de Ato Eleitoral para órgãos sociais da FGP',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - CC 0160 - AnÚncio de Ato Eleitoral.pdf`
+        }
+      ]
+    },
+    {
+      date: '12 dezembro 2025',
+      title: 'Convocatória Eleições Órgãos Sociais FGP',
+      fact: 'Ato eleitoral  confirmado para 28 de fevereiro.',
+      tone: 'positive',
+      documents: [
+        {
+          label: 'Anúncio de Ato Eleitoral para órgãos sociais da FGP',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - CC0161 - Convocatória Eleições Órgãos Sociais FGP.pdf`
         }
       ]
     },
