@@ -269,6 +269,36 @@ function Timeline() {
         }
       ]
     },
+    {
+      date: '18 novembro 2025',
+      title: 'Anúncio Ato Eleitoral',
+      fact:'No seguimento da Decisão do Tribunal Arbitral do Desporto (TAD) datada de 3 de novembro de 2025, Decisão com a qual a FGP não concorda, a MAG decide convocar eleições para os órgão Sociais e igualmente para os delegados à assembleia geral para os meses de fevereiro e março de 2026',
+      tone: 'alert',
+      documents: [
+        {
+          label: 'Anúncio ato eleitoral',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - CC 0154 - Anúncio de Ato Eleitoral.pdf`
+        }
+      ]
+    },
+    {
+      date: '25 novembro 2025',
+      title: 'TAD esclarece que a decisão de repetição do ato eleitoral incide apenas sobre as eleições dos órgãos sociais e não abrange a eleição dos Delegados',
+      fact: [
+        'No seguimento da contestação dos delegados ao anúncio eleitorial de 18 de novembro sobre a marcação de eleições para delegados à assembleia geral, foi apresentado ao TAD um pedido de de esclarecimento sobre se a decisão de 3 de novembro — que determinou a repetição das eleições — se incluíria também a eleição dos Delegados à Assembleia Geral.',
+        'O TAD confirmou, por unanimidade dos árbitros, que a decisão incide apenas sobre as eleições dos órgãos federativos e não abrange a eleição dos Delegados.',
+        'O Tribunal refere de forma explícita: “O ato eleitoral para órgãos federativos […] é distinto do ato eleitoral para a eleição de delegados. […] É o ato eleitoral para órgãos federativos que […] se encontra viciado, pelo que é o ato eleitoral para órgãos federativos que deverá ser repetido, com os mesmos delegados já eleitos previamente. (Despacho n. 9_25_11_2025)',
+        ],
+      tone: 'alert',
+      documents: [
+        {
+          label: 'Despacho - Repetição de eleições com os mesmos delegados já eleitos previamente',
+          source: 'TAD',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Despacho n. 9_25_11_2025.pdf`
+        }
+      ]
+    },
   ];
 
   return (
