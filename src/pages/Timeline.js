@@ -323,7 +323,7 @@ function Timeline() {
       title: 'Delegados solicitam AG Extraordinária',
       fact: [
         '17 delegados, que representam 35% da AG, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária.',
-        'NOTA: Esta AG nunca chegou a ser convocada pela MAG.',
+        'NOTA: A AG nos parâmetros solicitados nunca chegou a ser convocada pela MAG.',
         ],
       tone: 'negative',
     },
@@ -332,7 +332,7 @@ function Timeline() {
       title: 'Anúncio de Ato Eleitoral para órgãos sociais da FGP',
       fact: [
         'Neste anúncio é clara a opinião da FGP sobre a não competência do TAD.',
-        'Para este novo ato, a FGP já considerará a pausa natalícia e considera "adqueado" a marcação do novo ato eleitoral para 28 de fevereiro, 3 meses após a decisão do TAD.',
+        'Para este novo ato, a FGP já considerará a pausa natalícia e considera "adqueado" a marcação do novo ato eleitoral para 28 de fevereiro, 4 meses após a decisão do TAD.',
       ],
       tone: 'positive',
       documents: [
@@ -359,7 +359,10 @@ function Timeline() {
     {
       date: '13 dezembro 2025',
       title: 'Convocatória de Assembleia Geral Ordinária',
-      fact: 'Nesta cronologia, para esta convocatória, importa salientar que não foi apresentada pela MAG qualquer relação de delegados que se encontrassem em situação de perda de mandato ou em desconformidade com as disposições estatutárias aplicáveis.',
+      fact: [
+        'Nesta cronologia, para esta convocatória, importa salientar que não foi apresentada pela MAG qualquer relação de delegados que se encontrassem em situação de perda de mandato ou em desconformidade com as disposições estatutárias aplicáveis.',
+        'Nesta sessão o então Presidente da MAG, Dr. Carlos Morais, anunciou a sua renúncia ao cargo.',
+      ],
       tone: 'positive',
       documents: [
         {
@@ -369,6 +372,12 @@ function Timeline() {
         }
       ]
     },
+    // {
+    //   date: '2025',
+    //   title: 'Atas de 2025',
+    //   fact: 'As atas 182_29mar_25, 183_10_abr25, 184_abr25, 185_13dez foram apenas divulgadas a 18 de março de 2026 e aprovadas a 23 de março de 2026. Contudo, até à presente data, nenhuma das atas aprovadas foi divulgada ou publicada após a respetiva aprovação.',
+    //   tone: 'negative',
+    // },
   ];
 
   return (
