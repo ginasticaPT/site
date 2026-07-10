@@ -378,6 +378,31 @@ function Timeline() {
     //   fact: 'As atas 182_29mar_25, 183_10_abr25, 184_abr25, 185_13dez foram apenas divulgadas a 18 de março de 2026 e aprovadas a 23 de março de 2026. Contudo, até à presente data, nenhuma das atas aprovadas foi divulgada ou publicada após a respetiva aprovação.',
     //   tone: 'negative',
     // },
+    {
+      date: '12 fevereiro 2026',
+      title: 'Declaração de perda de mandato de delegados por parte da CE',
+      fact: [
+        'Nesta data, 5 delegados são informados que devido a faltas a duas sessões seguidas ou quatro interpoladas da assembleia geral, perdem automaticamente o mandato.'
+        'Esta decisão, de perda, compete exclusivamente à AG, de acordo com o art.º 32, nº2, dos estatutos, que é claro que Compete à Assembleia Geral deliberar sobre a perda do mandato dos titulares dos órgãos federativos, em conformidade com os estatutos e a lei.',
+      ],
+      tone: 'negative',
+    },
+    {
+      date: '13 fevereiro 2026',
+      title: 'Substituição irregular de delegados eleitos',
+      fact: [
+        'A 15 dias das eleições é enviado, aos delegados, o caderno eleitoral com 5 delegados substitídos por delegados que ficaram em 2º lugar nas eleições de delegados de novembro de 2024.',
+        'Esta decisão unilaretal da Comissão eleitoral viola o art.º 32, nº2, dos estatutos.',
+      ],
+      tone: 'negative',
+      documents: [
+        {
+          label: 'Caderno Eleitoral para as eleições dos órgãos sociais da FGP',
+          source: 'FGP',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2026 - CC024 - Caderno eleitoral eleições Órgãos Sociais da FGP.pdf`
+        }
+      ]
+    },
   ];
 
   return (
