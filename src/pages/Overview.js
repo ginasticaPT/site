@@ -101,11 +101,11 @@ function Overview() {
         <article className="year-card">
           <h2>2026</h2>
           <ul>
-            <li>Continuidade das diligências formais e respostas recebidas.</li>
-            <li>Reforço de pedidos e validação de procedimentos.</li>
-            <li>Preparação de novas etapas na cronologia documental.</li>
-            <li></li>
-            <li></li>
+            <li>Exclusão e substituição irregular de delegados antes das eleições.</li>
+            <li>Intervenção do IPDJ e suspensão das eleições.</li>
+            <li>Assembleia Geral delibera a manutenção dos mandatos de cinco delegados.</li>
+            <li>Intervenções sucessivas do IPDJ e risco para a Utilidade Pública Desportiva</li>
+            <li>As Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP</li>
           </ul>
           <Link className="year-card-link" to="/timeline/2026">Mais detalhes 2026</Link>
         </article>
