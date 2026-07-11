@@ -36,14 +36,11 @@ function Overview() {
         <h1>Enquadramento dos acontecimentos</h1>
         <p>
           A Federação de Ginástica de Portugal, instituição de utilidade pública e de utilidade pública desportiva, encontra‑se numa situação de instabilidade institucional,
-          resultante de uma sucessão de atos praticados pela Mesa da Assembleia Geral (MAG) e pela Comissão Eleitoral, ao longo de mais de 18 meses. 
+          resultante de uma sucessão de atos praticados pela Mesa da Assembleia Geral (MAG) e pela Comissão Eleitoral, ao longo de mais de 18 meses, corroborados pela Direção da FGP. 
         </p>
         <p>
-          Nesse sentido, apresentam‑se de seguida, de forma cronológica, os acontecimentos que foram relevantes, que conduziram ao processo no TAD e no IPDJ.
+          Apresentam‑se de seguida, por ordem cronológica, os acontecimentos que se revelaram mais relevantes para a evolução deste processo e que culminaram em procedimentos junto do TAD e IPDJ.
           Cada evento é acompanhado pelas evidências e documentos disponíveis, permitindo-lhe construir a sua própria interpretação dos factos.
-        </p>
-        <p>
-          {/* Abaixo encontra um resumo por ano para facilitar a leitura antes de consultar a cronologia completa. */}
         </p>
       </header>
 
@@ -78,11 +75,11 @@ function Overview() {
         <article className="year-card">
           <h2>2024</h2>
           <ul>
-            <li>Na 1.ª volta das eleições dos órgãos sociais da FGP foram identificadas irregularidades no apuramento eleitoral dos resultados e confirmou-se a necessidade de se realizar 2ªvolta.</li>
-            <li>A ata eleitoral foi elaborada unilateralmente pelo então Presidente da MAG, contestada sem posterior retificação e nunca assinada pelos mandatários das listas concorrentes.</li>
+            <li>Na 1.ª volta das eleições dos órgãos sociais da FGP foram identificadas irregularidades no apuramento eleitoral dos resultados e confirmou-se a necessidade de se realizar uma 2ªvolta.</li>
+            <li>A ata eleitoral foi elaborada unilateralmente pelo então Presidente da MAG, tendo sido posteriormente contestada em que tivesse sido objeto de retificação, nem assinada pelos mandatários das listas concorrentes.</li>
             <li>Em 23 de dezembro foi comunicado que dois votos anteriormente considerados nulos seriam reapreciados numa sessão marcada para 26 de dezembro.</li>
             <li>Na sessão de 26 de dezembro, foram reabertos e reapreciados dois votos anteriormente considerados nulos. Desta reapreciação resultou a proclamação da eleição dos órgãos Presidente, Direção e MAG.</li>
-            <li>A reapreciação dos votos nulos, a forma como o processo foi conduzido e as irregularidades identificadas no apuramento eleitoral deram origem ao Processo TAD n.º 1/2025, marcando o início do contencioso institucional relacionado com as eleições federativas.</li>
+            <li>A reapreciação dos votos nulos, a forma como o processo eleitoral foi conduzido e as irregularidades identificadas no apuramento eleitoral deram origem ao Processo TAD n.º 1/2025, marcando o início do contencioso institucional relacionado com as eleições federativas.</li>
           </ul>
           <Link className="year-card-link" to="/timeline/2024">Mais detalhes 2024</Link>
         </article>
