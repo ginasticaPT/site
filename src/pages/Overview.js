@@ -101,7 +101,7 @@ function Overview() {
             <li>Exclusão e substituição irregular de delegados antes das eleições.</li>
             <li>Intervenção do IPDJ e suspensão das eleições.</li>
             <li>Assembleia Geral delibera a manutenção dos mandatos de cinco delegados.</li>
-            <li>Intervenções sucessivas do IPDJ e risco para a Utilidade Pública Desportiva</li>
+            <li>Intervenções sucessivas do IPDJ e risco de perda de Utilidade Pública</li>
             <li>As Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP</li>
           </ul>
           <Link className="year-card-link" to="/timeline/2026">Mais detalhes 2026</Link>
