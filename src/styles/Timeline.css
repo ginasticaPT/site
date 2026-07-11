@@ -1,4 +1,4 @@
-.timeline-container {
+﻿.timeline-container {
   background: #282c34;
   min-height: 100vh;
   color: #f4f7f5;
@@ -35,7 +35,7 @@
 }
 
 .timeline-header h1 {
-  margin: 0;
+  margin: 12px 0 18px;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
 }
 
@@ -311,3 +311,4 @@
     padding: 24px 8px 10px;
   }
 }
+
