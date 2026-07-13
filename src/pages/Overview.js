@@ -33,7 +33,6 @@ function Overview() {
           <button className="overview-back-button">← Voltar</button>
         </Link>
         <h1><strong>ELEIÇÕES ANULADAS, DELEGADOS AFASTADOS E AMEAÇA DE SANÇÃO DO IPDJ</strong></h1>
-        //<h1>Enquadramento dos acontecimentos</h1>
         <p>
           A Federação de Ginástica de Portugal, instituição de utilidade pública e de utilidade pública desportiva, encontra se atualmente <strong>mergulhada numa crise sem precedentes</strong> 
           e num processo que poderá <strong>conduzir à suspensão desse estatuto</strong>, resultante de uma sucessão de atos praticados pela Mesa da Assembleia Geral (MAG) e pela Comissão Eleitoral, <strong>ao longo de mais de 18 meses</strong>, corroborados pela Direção da FGP. 
