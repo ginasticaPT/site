@@ -94,7 +94,7 @@ function Overview() {
             <li>Em 23 de dezembro foi comunicado, por decisão do Presidente da MAG e da Comissão eleitoral (candidato pela lista A e interessado directo) que dois votos  considerados nulos, 8 dias antes, seriam dados como validos e abertos  numa sessão marcada para 26 de dezembro.</li>
             <li>Na sessão de 26 de dezembro, foram abertos dois votos dos 6 declarados nulos 8 dias antes sem a presença dos representantes das Listas concorrentes. Desta abertura de votos  a proclamação da eleição dos órgãos Presidente, Direção e MAG.</li>
             <li>A ressuscitação dos votos nulos, a forma  e modo como o processo eleitoral foi conduzido e as irregularidades identificadas no apuramento eleitoral deram origem ao Processo TAD n.º 1/2025, marcando o início do contencioso institucional relacionado com as eleições federativas.</li>
-            <li>Durante todo o ano de 2024 nunca houve nenhuma informação nem comunicação sobre faltas e perdas de mandatos de Delegados.</li>
+            <li>Durante todo o ano de 2024 nunca houve nenhuma informação nem comunicação sobre perdas de mandatos de Delegados por faltas.</li>
           </ul>
           <Link className="year-card-link" to="/timeline/2024">Mais detalhes 2024</Link>
         </article>
@@ -119,14 +119,14 @@ function Overview() {
         <article className="year-card">
           <h2>2026</h2>
           <ul>
-            <li>Exclusão e subtituição irregular de delegados 15 dias antes das eleições. Configuram usurpação de competências da Assembleia Geral pela MAG, designadamente quanto à declaração unilateral de perda de mandato de delegados eleitos.</li>
+            <li>Exclusão e subtituição irregular de delegados 15 dias antes das eleições. Configura usurpação de competências da Assembleia Geral pela MAG, designadamente quanto à declaração unilateral de perda de mandato de delegados eleitos.</li>
             <li>MAG decide pela suspensão das eleições em 27/02/2026.</li>
-            <li>Março de 2026, Intervenção do IPDJ para regularização da situação do colégio eleitoral estipilando 20 dias para a FGP realizar eleições e apresentar ata da tomada de posse.</li>
-            <li>Após duas AG (7 e 23/03/2026), Assembleia Geral delibera a manutenção dos mandatos de cinco delegados.</li>
+            <li>Março de 2026, Intervenção do IPDJ para regularização da situação do colégio eleitoral estipulando 30 dias para a FGP realizar eleições e apresentar ata da tomada de posse.</li>
+            <li>Após duas AGs (7 e 23/03/2026), Assembleia Geral delibera a manutenção dos mandatos de cinco delegados.</li>
             <li>MAG não assume os resultados da AG sobre a manutenção dos cinco delegados.</li>
             <li>Após intervenções sucessivas do IPDJ, em Maio de 2026, determina um último prazo de 30 dias, improrrogável,  para regularização da situação eleitoral e alertando para a suspensão da Utilidade Pública.</li>
             <li>Durante 2026, continuou a resusa sistemática de realização de Assembleias Gerais a pedidos dos Delgados.</li>
-            <li>22 Junho de 2026, as Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP com o objetivo de perda de mandato dos 5 delegados que foram votados em AG, 3 meses antes, por uma grande maioria para a sua manutenção.</li>
+            <li>24 Junho de 2026, as Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP com o objetivo de perda de mandato dos 5 delegados que foram votados em AG, 3 meses antes, por uma grande maioria para a sua manutenção.</li>
           </ul>
           <Link className="year-card-link" to="/timeline/2026">Mais detalhes 2026</Link>
         </article>
