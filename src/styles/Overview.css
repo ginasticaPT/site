@@ -151,6 +151,10 @@
   }
 
   .overview-header {
+    max-width: 1080px;
+    margin: 0 auto 52px;
+    text-align: center;
+    position: relative;
     padding-top: 56px;
   }
 }
