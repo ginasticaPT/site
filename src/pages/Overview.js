@@ -32,11 +32,11 @@ function Overview() {
         <Link to="/">
           <button className="overview-back-button">← Voltar</button>
         </Link>
-        <h1>Eleições Órgãos Sociais FGP 2025–2028</h1>
-        <h1>Enquadramento dos acontecimentos</h1>
+        <h1><strong>ELEIÇÕES ANULADAS, DELEGADOS AFASTADOS E AMEAÇA DE SANÇÃO DO IPDJ</strong></h1>
+        //<h1>Enquadramento dos acontecimentos</h1>
         <p>
-          A Federação de Ginástica de Portugal, instituição de utilidade pública e de utilidade pública desportiva, encontra‑se numa situação de instabilidade institucional,
-          resultante de uma sucessão de atos praticados pela Mesa da Assembleia Geral (MAG) e pela Comissão Eleitoral, ao longo de mais de 18 meses, corroborados pela Direção da FGP. 
+          A Federação de Ginástica de Portugal, instituição de utilidade pública e de utilidade pública desportiva, encontra se atualmente <strong>mergulhada numa crise sem precedentes</strong> 
+          e num processo que poderá <strong>conduzir à suspensão desse estatuto</strong>, resultante de uma sucessão de atos praticados pela Mesa da Assembleia Geral (MAG) e pela Comissão Eleitoral, <strong>ao longo de mais de 18 meses</strong>, corroborados pela Direção da FGP. 
         </p>
         <p>
           Apresentam‑se de seguida, por ordem cronológica, os acontecimentos que se revelaram mais relevantes para a evolução deste processo e que culminaram em procedimentos junto do TAD e IPDJ.
