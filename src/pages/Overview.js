@@ -102,10 +102,16 @@ function Overview() {
         <article className="year-card">
           <h2>2025</h2>
           <ul>
-            <li>A realização da 2.ª volta das eleições ocorreu a 11 de janeiro para além do prazo de oito dias contado da data da 1.ª volta, violando o art.º 13º, nº5, do REFGP..</li>
-            <li>Após a aceitação dos votos nulos em 26 de dezembro de 2024, a convocatória para a 2ªvolta incidiu apenas sobre os órgãos Conselho Fiscal e Conselho de Ajuizamento.</li>
-            <li>Em 3 de novembro de 2025, o TAD anulou os atos eleitorais de 15 e 26 de dezembro de 2024, bem como a 2.ª volta realizada em 11 de janeiro de 2025, por violação de normas legais e regulamentares consideradas essenciais aos princípios da democraticidade e da transparência, determinando a repetição das eleições.</li>
-            <li>Em novembro de 2025, a MAG anunciou a realização de novas eleições para os órgãos sociais e para os Delegados à Assembleia Geral. Na sequência de pedidos de esclarecimento, o TAD confirmou que a repetição determinada incidia exclusivamente sobre as eleições dos órgãos federativos, mantendo-se válidas as eleições dos Delegados já realizadas.</li>   
+            <li>A 11 de janeiro a realização da 2.ª volta das eleições ocorreu  para além do prazo de oito dias contado da data da 1.ª volta.</li>
+            <li>Na 2ª volta, durante a contagem e validação dos votos por correspondência, contrariando o Estatutos e REFGP não foi permitida a presença de nenhum representante das Listas concorrentes a este ato de contagem e validação. Os votos por correspondência foram abertos e contados sem a presença de representantes da Lista B e, unicamente, com a presença do Presidente da MAG (candidato da Lista A e interessado nos resultado), o qual decidiu a ressuscitação de votos nulos.</li>
+            <li>A abertura de votos nulos em 26 de dezembro de 2024 originou que, ao contrário do que ficou determinado pelo Presidente da MAG e da Comissão Eleitoral, no dia 15/12/2024a convocatória para a 2ªvolta incidiu apenas sobre os órgãos Conselho Fiscal e Conselho de Ajuizamento.</li>
+            <li>Neste ano de 2025, a FGP não publicou no sítio oficial da FGP de nenhuma das atas das Assembleias Gerais realizadas em 2025, incluindo folhas de presença. As únicas atas publicadas em 2025 são as de natureza eleitoral.</li>
+            <li>As eleições intercalares para Conselho Disciplina de 20/07/2025 foram motivadas pela renúncia do membro eleito da Lista A e pela recusa dos respetivos suplentes em assumir funções. Neste ato eleitoral repetiu-se a abertura de votos por correspondência sem representantes de todas as listas e a ausência de informação oficial sobre eventuais delegados em perda de mandato.</li>
+            <li>Durante todo o ano de 2025 nunca houve informação nem comunicação sobre faltas e perdas de mandatos de Delegados.</li>
+            <li>Em 3 de novembro de 2025, o TAD anulou os atos eleitorais de 15 e 26 de dezembro de 2024, bem como a 2.ª volta realizada em 11 de janeiro de 2025, por violação de normas legais e regulamentares consideradas essenciais aos princípios da democraticidade e da transparência, determinando a repetição das eleições em 15 dias.</li>
+            <li>Em novembro de 2025, a MAG anunciou a realização de novas eleições para os órgãos sociais e para os Delegados à Assembleia Geral. Na sequência de pedidos de esclarecimento, o TAD confirmou que a repetição determinada incidia exclusivamente sobre as eleições dos órgãos federativos com o mesmo colégio eleitoral, mantendo-se válidas as eleições dos Delegados já realizadas.</li>
+            <li>Em Novembro e Dezembro de 2025, mais de 20% dos delegados, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária para definir a marcação da data, hora e local das eleições, em obediência ao disposto nos Estatutos e no REFPG.</li>
+            <li>A MAG recusou liminarmente os pedidos violando os direitos dos delegados e da AG</li>   
           </ul>
           <Link className="year-card-link" to="/timeline/2025">Mais detalhes 2025</Link>
         </article>
@@ -113,11 +119,14 @@ function Overview() {
         <article className="year-card">
           <h2>2026</h2>
           <ul>
-            <li>Exclusão e substituição irregular de delegados antes das eleições.</li>
-            <li>Intervenção do IPDJ e suspensão das eleições.</li>
-            <li>Assembleia Geral delibera a manutenção dos mandatos de cinco delegados.</li>
-            <li>Intervenções sucessivas do IPDJ e risco de perda de Utilidade Pública</li>
-            <li>As Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP</li>
+            <li>Exclusão e subtituição irregular de delegados 15 dias antes das eleições. Configuram usurpação de competências da Assembleia Geral pela MAG, designadamente quanto à declaração unilateral de perda de mandato de delegados eleitos.</li>
+            <li>MAG decide pela suspensão das eleições em 27/02/2026.</li>
+            <li>Março de 2026, Intervenção do IPDJ para regularização da situação do colégio eleitoral estipilando 20 dias para a FGP realizar eleições e apresentar ata da tomada de posse.</li>
+            <li>Após duas AG (7 e 23/03/2026), Assembleia Geral delibera a manutenção dos mandatos de cinco delegados.</li>
+            <li>MAG não assume os resultados da AG sobre a manutenção dos cinco delegados.</li>
+            <li>Após intervenções sucessivas do IPDJ, em Maio de 2026, determina um último prazo de 30 dias, improrrogável,  para regularização da situação eleitoral e alertando para a suspensão da Utilidade Pública.</li>
+            <li>Durante 2026, continuou a resusa sistemática de realização de Assembleias Gerais a pedidos dos Delgados.</li>
+            <li>22 Junho de 2026, as Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP com o objetivo de perda de mandato dos 5 delegados que foram votados em AG, 3 meses antes, por uma grande maioria para a sua manutenção.</li>
           </ul>
           <Link className="year-card-link" to="/timeline/2026">Mais detalhes 2026</Link>
         </article>
