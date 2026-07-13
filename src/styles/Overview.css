@@ -101,6 +101,25 @@
   gap: 16px;
 }
 
+.year-header {
+  max-width: 1080px;
+  margin: 0 auto 52px;
+  text-align: center;
+  position: relative;
+  padding-top: 84px;
+}
+
+.year-header h2 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+}
+
+.year-header p {
+  margin: 0 auto 10px;
+  max-width: 900px;
+  line-height: 1.45;
+}
+
 .year-card {
   background: #ffffff;
   color: #1a1a1a;
