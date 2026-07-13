@@ -89,11 +89,12 @@ function Overview() {
         <article className="year-card">
           <h2>2024</h2>
           <ul>
-            <li>Na 1.ª volta das eleições dos órgãos sociais da FGP foram identificadas irregularidades no apuramento eleitoral dos resultados e confirmou-se a necessidade de se realizar uma 2ªvolta.</li>
-            <li>A ata eleitoral foi elaborada unilateralmente pelo então Presidente da MAG, tendo sido posteriormente contestada em que tivesse sido objeto de retificação, nem assinada pelos mandatários das listas concorrentes.</li>
-            <li>Em 23 de dezembro foi comunicado que dois votos anteriormente considerados nulos seriam reapreciados numa sessão marcada para 26 de dezembro.</li>
-            <li>Na sessão de 26 de dezembro, foram reabertos e reapreciados dois votos anteriormente considerados nulos. Desta reapreciação resultou a proclamação da eleição dos órgãos Presidente, Direção e MAG.</li>
-            <li>A reapreciação dos votos nulos, a forma como o processo eleitoral foi conduzido e as irregularidades identificadas no apuramento eleitoral deram origem ao Processo TAD n.º 1/2025, marcando o início do contencioso institucional relacionado com as eleições federativas.</li>
+            <li>Em 15 Dezembro de 2024,  1.ª volta das eleições dos órgãos sociais da FGP,  na contagem dos votos foram declarados pelo Presidente da MAG e da Comissão Eleitoral nulos 6 votos por correspondência por irregularidades  e confirmou-se a necessidade de se realizar uma 2ªvolta.</li>
+            <li>A ata do ato eleitoral foi elaborada unilateralmente pelo à data Presidente da MAG apesar de ter sido contestada pelas Listas candidatas B e C, sem que tivesse sido objeto de nenhuma correção ou retificação. A referida ata foi publicada sem nunca ter sido assinada pelos mandatários das listas concorrentes.</li>
+            <li>Em 23 de dezembro foi comunicado, por decisão do Presidente da MAG e da Comissão eleitoral (candidato pela lista A e interessado directo) que dois votos  considerados nulos, 8 dias antes, seriam dados como validos e abertos  numa sessão marcada para 26 de dezembro.</li>
+            <li>Na sessão de 26 de dezembro, foram abertos dois votos dos 6 declarados nulos 8 dias antes sem a presença dos representantes das Listas concorrentes. Desta abertura de votos  a proclamação da eleição dos órgãos Presidente, Direção e MAG.</li>
+            <li>A ressuscitação dos votos nulos, a forma  e modo como o processo eleitoral foi conduzido e as irregularidades identificadas no apuramento eleitoral deram origem ao Processo TAD n.º 1/2025, marcando o início do contencioso institucional relacionado com as eleições federativas.</li>
+            <li>Durante todo o ano de 2024 nunca houve nenhuma informação nem comunicação sobre faltas e perdas de mandatos de Delegados.</li>
           </ul>
           <Link className="year-card-link" to="/timeline/2024">Mais detalhes 2024</Link>
         </article>
