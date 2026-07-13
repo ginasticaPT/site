@@ -35,10 +35,18 @@ function Overview() {
         <h1><strong>ELEIÇÕES ANULADAS, DELEGADOS AFASTADOS E AMEAÇA DE SANÇÃO DO IPDJ</strong></h1>
         <p>
           A Federação de Ginástica de Portugal, instituição de utilidade pública e de utilidade pública desportiva, encontra se atualmente <strong>mergulhada numa crise sem precedentes</strong> 
-          e num processo que poderá <strong>conduzir à suspensão desse estatuto</strong>, resultante de uma sucessão de atos praticados pela Mesa da Assembleia Geral (MAG) e pela Comissão Eleitoral, <strong>ao longo de mais de 18 meses</strong>, corroborados pela Direção da FGP. 
+          e num processo que poderá <strong>conduzir à suspensão desse estatuto</strong>, resultante de uma sucessão de atos praticados pela Mesa da Assembleia Geral e pela Comissão Eleitoral, <strong>ao longo de mais de 18 meses</strong>, corroborados pela Direção da FGP. 
         </p>
         <p>
-          Apresentam‑se de seguida, por ordem cronológica, os acontecimentos que se revelaram mais relevantes para a evolução deste processo e que culminaram em procedimentos junto do TAD e IPDJ.
+          Neste período, a atuação da Mesa da Assembleia Geral e da Comissão Eleitoral, com o apoio da Direção, tem sido marcada por decisões irregulares e pela violação dos princípios básicos de legalidade e transparência. 
+          Destacam-se a <strong>anulação de atos eleitorais pelo Tribunal Arbitral do Desporto, incumprimento de decisões do Tribunal Arbitral do Desporto, transformação de votos nulos em validos, abertura de votos sem a presença dos representantes das Listas, usurpação de competências da Assembleia Geral, afastamento de delegados legalmente eleitos, não marcação de AG</strong> pedidas pelos delegados, recusa da MAG em cumprir as deliberações da AG, irregularidades processuais, falta de publicitação de atos e sucessivos adiamentos eleitorais.
+        </p>
+        <p>
+          Paralelamente, verifica-se o incumprimento reiterado de orientações e prazos impostos pelo Instituto Português do Desporto e Juventude, evidenciando uma postura de desrespeito face às entidades de tutela e supervisão.
+          Este conjunto de comportamentos compromete gravemente o funcionamento democrático da Federação e evidenciam falhas graves de funcionamento democrático e de respeito pelos princípios legais e estatutários.
+        </p>
+        <p>
+          Apresentam se de seguida, por ordem cronológica, os acontecimentos que se revelaram mais relevantes para a evolução deste processo e que culminaram em procedimentos junto do TAD e IPDJ. 
           Cada evento é acompanhado pelas evidências e documentos disponíveis, permitindo-lhe construir a sua própria interpretação dos factos.
         </p>
       </header>
@@ -68,6 +76,13 @@ function Overview() {
             ))}
           </ul>
         </div>
+      </section>
+
+      <section className="year-header" aria-label="Cronologia de acontecimentos">
+        <h2><strong>Cronologia dos factos e irregularidades</strong></h2>
+        <p>
+          Apresenta-se em seguida a cronologia documentada dos eventos relevantes, com indicação da irregularidade identificada em cada momento.
+        </p>
       </section>
 
       <section className="year-grid" aria-label="Resumo anual de acontecimentos">
