@@ -6,10 +6,12 @@ import Overview from './pages/Overview';
 import Timeline2024 from './pages/Timeline2024';
 import Timeline2025 from './pages/Timeline2025';
 import Timeline2026 from './pages/Timeline2026';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <Router basename="/site">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/overview" element={<Overview />} />
