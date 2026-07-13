@@ -332,9 +332,9 @@ function Timeline() {
         <Link to="/overview">
           <button className="back-button">← Voltar</button>
         </Link>
-        <h1>Transparência e Memória: Cronologia dos Acontecimentos na FGP</h1>
-        <p>Uma viagem através de decisões, acontecimentos e momentos que moldaram o processo eleitoral e a Assembleia Geral da Federação de Ginástica de Portugal desde 2024.</p>
-        <p>Cada evento é acompanhado pelas evidências e documentos disponíveis, permitindo-lhe construir a sua própria interpretação dos factos.</p>
+        <h1>Cronologia dos Acontecimentos 2026</h1>
+        {/* <p>Uma viagem através de decisões, acontecimentos e momentos que moldaram o processo eleitoral e a Assembleia Geral da Federação de Ginástica de Portugal desde 2024.</p>
+        <p>Cada evento é acompanhado pelas evidências e documentos disponíveis, permitindo-lhe construir a sua própria interpretação dos factos.</p> */}
       </header>
       <div className="timeline-content">
         <div className="vertical-timeline" aria-label="Cronologia vertical de eventos">
@@ -364,6 +364,16 @@ function Timeline() {
                       <figcaption className="timeline-image-caption">{event.imageCaption}</figcaption>
                     )}
                   </figure>
+                )}
+                {event.rules?.length > 0 && (
+                  <section className="timeline-rules" aria-label={`Regras aplicáveis para ${event.title}`}>
+                    <h4>Normas violadas:</h4>
+                    <ul>
+                      {event.rules.map((rule, ruleIndex) => (
+                        <li key={`${event.title}-rule-${ruleIndex}`}>{rule}</li>
+                      ))}
+                    </ul>
+                  </section>
                 )}
                 {event.documents?.length > 0 && (
                   <section className="timeline-documents" aria-label={`Documentos de suporte para ${event.title}`}>
