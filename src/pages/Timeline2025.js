@@ -207,7 +207,7 @@ function Timeline() {
       date: '19 novembro 2025',
       title: 'Presidente da MAG solicita ao TAD esclarecimento sobre a marcação de Eleições',
       fact: [
-        'Presidente da MAG solicita ao TAD para “esclarecer se a determinação de proceder à marcação de eleições abrange igualmente a eleição dos Delegados à Assembleia Geral, ou se se limita aos demais órgãos federativos”.',
+        <p>Presidente da MAG solicita ao TAD para <em>"esclarecer se a determinação de proceder à marcação de eleições abrange igualmente a eleição dos Delegados à Assembleia Geral, ou se se limita aos demais órgãos federativos"</em>.</p>,
       ],
       tone: 'alert',
       documents: [
@@ -238,7 +238,7 @@ function Timeline() {
     {
       date: '26 novembro 2025',
       title: 'Anúncio de Ato Eleitoral para os órgãos sociais da FGP (brevemente)',
-      fact: 'No seguimento do esclarecimento do TAD, a FGP passou a entender que a repetição eleitoral ordenada pelo TAD se restringia aos "restantes órgãos sociais", excluindo a eleição de delegados à Assembleia Geral.',
+      fact:'No seguimento do esclarecimento do TAD a proceder, brevemente, ao proceder ao anúncio da data das eleições.',
       tone: 'alert',
       documents: [
         {
@@ -253,18 +253,16 @@ function Timeline() {
       title: 'Delegados solicitam AG Extraordinária',
       fact: [
         '17 delegados, que representam 35% da AG, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária.',
-        'MAG mais uma vez não cumpre o pedido de marcação de AG dos Delegados.',
+        'NOTA: A AG nos parâmetros solicitados nunca chegou a ser convocada pela MAG.',
         ],
       tone: 'negative',
-      important: [
-        'A AG nos parâmetros solicitados nunca chegou a ser convocada pela MAG',
-      ],
     },
     {
       date: '8 dezembro 2025',
       title: 'Anúncio de Ato Eleitoral para órgãos sociais da FGP',
       fact: [
-        'A FGP marca novo ato eleitoral para 28 de fevereiro, 4 meses após a decisão do TAD.',
+        'Neste anúncio é clara a opinião da FGP sobre a não competência do TAD.',
+        'Para este novo ato, a FGP já considerará a pausa natalícia e considera "adqueado" a marcação do novo ato eleitoral para 28 de fevereiro, 4 meses após a decisão do TAD.',
       ],
       tone: 'positive',
       documents: [
@@ -278,11 +276,8 @@ function Timeline() {
     {
       date: '12 dezembro 2025',
       title: 'Convocatória Eleições Órgãos Sociais FGP',
-      fact: 'Ato eleitoral confirmado para 28 de fevereiro, com uma comissão eleitoral presidida por Inês Nabais, que posteriormente integrou uma das listas candidatas, em desconformidade com o disposto no artigo 38.º, n.º 3, do Regulamento Eleitoral.',
+      fact: 'Ato eleitoral  confirmado para 28 de fevereiro, com uma comissão eleitoral presidida por Inês Nabais, que posteriormente integrou uma das listas candidatas.',
       tone: 'positive',
-      rules: [
-        'Art.º 38.º, n.º 3 do REFGP',
-      ],
       documents: [
         {
           label: 'Anúncio de Ato Eleitoral para órgãos sociais da FGP',
@@ -296,12 +291,9 @@ function Timeline() {
       title: 'Convocatória de Assembleia Geral Ordinária',
       fact: [
         'Nesta cronologia, para esta convocatória, importa salientar que não foi apresentada pela MAG qualquer relação de delegados que se encontrassem em situação de perda de mandato ou em desconformidade com as disposições estatutárias aplicáveis.',
-        'Nesta sessão o então Presidente da MAG, Dr. Carlos Morais, anunciou a sua renúncia ao cargo após a derrota em tribunal.',
+        'Nesta sessão o então Presidente da MAG, Dr. Carlos Morais, anunciou a sua renúncia ao cargo.',
       ],
       tone: 'positive',
-      important: [
-        'Nesta AG não foi apresentada pela MAG nem pela Comissão Eleitoral qualquer relação de delegados que se encontrassem em situação de perda de mandato ou em desconformidade com as disposições estatutárias aplicáveis. As faltas que acusam aos 5 delegados são anteriores a esta data. Os 5 delegados visados em 2026 participaram e votaram.',
-      ],
       documents: [
         {
           label: 'Convocatória de Assembleia Geral Ordinária',
@@ -344,7 +336,7 @@ function Timeline() {
                       if (typeof entry === 'string') {
                         return <p key={`${event.title}-fact-${factIndex}`}>{entry}</p>;
                       }
-
+                      
                       if (entry?.type === 'bullets' && Array.isArray(entry.items)) {
                         return (
                           <ul className="timeline-fact-bullets" key={`${event.title}-fact-bullets-${factIndex}`}>
@@ -355,6 +347,10 @@ function Timeline() {
                             ))}
                           </ul>
                         );
+                      }
+
+                      if (React.isValidElement(entry)) {
+                        return <p key={`${event.title}-fact-${factIndex}`}>{entry}</p>;
                       }
 
                       return null;
