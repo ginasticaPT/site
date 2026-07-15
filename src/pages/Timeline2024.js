@@ -7,70 +7,15 @@ function Timeline() {
   const getImageUrl = (fileName) => `${IMAGES_BASE_URL}/${encodeURIComponent(fileName)}`;
 
   const events = [
-    // {
-    //   date: '14 janeiro 2024',
-    //   title: 'Alterações estatutárias - 1ª sessão',
-    //   fact: 'TBD.',
-    //   tone: 'positive',
-    //   documents: [
-    //     {
-    //       label: 'Convocatória da sessão',
-    //       source: 'FGP',
-    //       url: `${process.env.PUBLIC_URL}/documents/FGP_Convocatória_Assembleia Geral Extraordinária_176_14.JAN_2024.pdf`,
-    //     },
-    //     {
-    //       label: 'Relatório fundamentação alterações estatutárias',
-    //       source: 'FGP',
-    //       url: `${process.env.PUBLIC_URL}/documents/FGP-Relatório-Fundamentação-Estatutos-Final_CRE_14 DEZ 2023.pdf`
-    //     },
-    //     {
-    //       label: 'Ata da sessão',
-    //       source: 'FGP',
-    //       url: `${process.env.PUBLIC_URL}/documents/FGP_Ata_Assembleia Geral Extraordinária_176_14.JAN_2024.pdf`
-    //     }
-    //   ]
-    // },
-    // {
-    //   date: '23 março 2024',
-    //   title: 'Alterações estatutárias - 2ª sessão',
-    //   fact: 'Foi publicada a convocatória para os primeiros atos formais do processo eleitoral da FGP.',
-    //   tone: 'positive',
-    //   documents: [
-    //     {
-    //       label: 'Convocatória da 2ª sessão',
-    //       source: 'FGP',
-    //       url: 'https://example.com/documentos/convocatoria-2a-sessao.pdf'
-    //     }
-    //   ]
-    // },
-    // {
-    //   date: '4 junho 2024',
-    //   title: 'Publicação dos Estatutos Alterados da FGP no Portal da Justiça',
-    //   fact: [
-    //       'Publicação da alteração estatutária no Portal da Justiça acontece apenas a 24 de novembro de 2024. ',
-    //       'A partir desta data, a alteração estatutária que introduz, entre outras disposições, a alínea d) do n.º 1 do artigo 32.º dos Estatutos — que prevê a perda de mandato dos delegados por falta a duas Assembleias Gerais consecutivas ou quatro interpoladas — passa a produzir plenamente os seus efeitos, competindo à Mesa da Assembleia Geral proceder ao registo, contabilização e divulgação das faltas para os efeitos estatutariamente previstos.',
-    //   ],
-    //   tone: 'alert',
-    //   // Add the image file name after placing it in public/images (e.g. "estatutos-portal-justica.jpg")
-    //   image: 'print publicação estatutos.jpg.png',
-    //   imageCaption: 'Figura 1 — No site da FGP são apresentadas duas datas para a Publicação dos estatutos no Portal da Justiça.',
-    //   documents: [
-    //     {
-    //       label: 'Publicação estatutos 2024 no Portal da Justiça',
-    //       source: 'FGP',
-    //       url: `${process.env.PUBLIC_URL}/documents/FGP - 2024 - Publicação estatutos.pdf`
-    //     }
-    //   ]
-    // },
     {
       date: '15 dezembro 2024',
       title: 'Eleições órgãos sociais FGP – 1.ª volta',
       fact: [
-        'Durante o ato eleitoral, na contagem dos votos foram declarados pelo Presidente da Mesa AG e da Comissão Eleitoral nulos 6 votos por correspondência por irregularidades.',
+        <p>Durante o ato eleitoral, na contagem dos votos <strong>foram declarados pelo Presidente da Mesa AG e pela Comissão Eleitoral 6 votos nulos por correspondência</strong> por irregularidades.</p>,
         'De acordo com a contagem de votos registada, os órgãos Conselho de Disciplina e Conselho de Justiça foram eleitos sem que tenham sido reconhecidos (violação do art.º 13.º do REFGP).',
         'Os restantes órgãos obrigariam a uma 2ª volta.',
         'A ata do ato eleitoral foi elaborada unilateralmente pelo então Presidente da MAG apesar de ter sido contestada pelas Listas candidatas B e C, sem que tivesse sido objeto de nenhuma correção ou retificação. A referida ata nunca foi assinada pelos mandatários das listas concorrentes, em violação do disposto no n.º 3 do artigo 8.º do REFGP',
-        'Ao contrário do estipulado legalmente, não aconteceu a publicação dos resultados eleitorais definitivos no site da FGP no prazo (violação do art.º 11.º do REFGP).'
+        'Ao contrário do estipulado legalmente, não aconteceu a publicação dos resultados eleitorais definitivos no site da FGP no prazo legal (violação do art.º 11.º do REFGP).'
       ],
       rules: [
         'Art.º 8.º, n.º 3 do REFGP.',
@@ -89,7 +34,7 @@ function Timeline() {
     {
       date: '23 dezembro 2024',
       title: 'Comunicado Presidente MAG',
-      fact: 'Às 22h19 de 23 de dezembro, nas vésperas de Natal e sem cumprir o prazo mínimo legal para notificação, o à data Presidente da MAG (Carlos Morais) comunica que no dia 26 de dezembro, às 14h00, por sua decisão e do atual Presidente da MAG (Raul Caldeira) – ambos candidatos pela lista A e com conflito de interesses-decidiram que votos que foram considerados nulos pelo próprio durante o processo eleitoral de dia 15 de dezembro de 2024, passados 8 dias, foram considerados validos tendo por base reclamação que não podia ser atendida nem mesmo apresentada devido à sua extemporaneidade e ilegalidade violando as regras legais de atos eleitorais (Regime Eleitoral para o Presidente da República e da Assembleia da Republica).',
+      fact: <p>Às 22h19 de 23 de dezembro, na véspera de Natal e sem cumprir o prazo mínimo legal para notificação, <strong>o à data Presidente da MAG (Carlos Morais)</strong> comunica que no dia 26 de dezembro, às 14h00, <strong>por sua decisão e do atual Presidente da MAG (Raul Caldeira) – ambos candidatos pela lista A e com conflito de interesses - decidiram que votos que foram considerados nulos</strong> durante a 1ª volta eleitoral de dia 15 de dezembro de 2024, passados 8 dias, <strong>foram considerados validos</strong> tendo por base reclamação que não podia ser atendida nem mesmo apresentada devido à sua extemporaneidade e ilegalidade violando as regras legais de atos eleitorais (Regime Eleitoral para o Presidente da República e da Assembleia da Republica).</p>,
       rules: [
         'Art.º 30.º e 32.º do REFGP.',
         'Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
@@ -107,11 +52,11 @@ function Timeline() {
       date: '26 dezembro 2024',
       title: 'Eleições órgãos sociais FGP – Abertura votos nulos',
       fact: [
-        'O Presidente da MAG, que igualmente presidia à Comissão Eleitoral, Joana Ramalho, membro da Comissão Eleitoral, e Teresa Loureiro, representante da Lista A, sem a presença das outras duas Listas concorrentes, abriram dois votos nulos, dos 6 considerados nulos 11 dias antes pelo mesmo Presidente da MAG. A ressuscitação destes votos nulos escolhidos que permitiu a proclamação da eleição do próprio Presidente da MAG,  da MAG e da Direção da FGP. (Os decisores são os mesmos que tiram partido da decisão – Um claro conflito de interesses direto).',
+        <p><strong>O Presidente da MAG</strong>, que igualmente presidia à Comissão Eleitoral, Joana Ramalho, membro da Comissão Eleitoral, e Teresa Loureiro, representante da Lista A, <strong>sem a presença das outras duas Listas concorrentes, abriram dois votos nulos</strong>, dos 6 considerados nulos 11 dias antes pelo mesmo Presidente da MAG. <strong>A "ressuscitação" destes votos nulos escolhidos que permitiu a proclamação da eleição do próprio Presidente da MAG,  da MAG e da Direção da FGP</strong>. (Os decisores são os mesmos que tiram partido da decisão – Um claro conflito de interesses direto).</p>,
         'A ata deste ato também procedeu à proclamação dos resultados dos órgãos Conselho de Disciplina e Conselho de Justiça, anteriormente eleitos em 15 de dezembro. (contrariando os princípios da transparência eleitoral (art. 50.º do REFGP).)',
       ],
       rules: [
-        'Art.º 50.º do REFGP.',
+        'Princípios da transparência eleitoral (art. 50.º do REFGP).',
         'Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       tone: 'negative',
@@ -192,6 +137,11 @@ function Timeline() {
               </div>
             </article>
           ))}
+        </div>
+        <div className="timeline-extra-link-wrapper">
+          <Link className="timeline-extra-link" to="/timeline/2024/extra">
+            Ver acontecimentos adicionais 2024
+          </Link>
         </div>
       </div>
     </div>

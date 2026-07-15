@@ -19,14 +19,13 @@ function Timeline() {
       fact: [
         'A convocatória da 2ª volta é divulgada a 27 de dezembro após a divulgação da ata da sessão realizada a 26 de dezembro.',
         'A realização da 2.ª volta ocorreu para além do prazo de oito dias contado da data da 1.ª volta, não cumprindo o prazo legal estipulado, violando o art.º 13º, nº5, do REFGP.',
-        'Durante a contagem e validação dos votos por correspondência, contrariando o Estatutos e REFGP, não foi permitida a presença de nenhum representante das Listas concorrentes a este ato. Os votos por correspondência foram abertos e contados sem a presença de representantes da Lista B e unicamente com a presença do Presidente da MAG (candidato da Lista A, logo com interesse direto nos resultados eleitorais, sem isenção, e qual tinha decidido a ressuscitação de votos nulos), contrariando os princípios da transparência eleitoral.',
+        'Durante a contagem e validação dos votos por correspondência, não foi permitida a presença de nenhum representante das Listas concorrentes a este ato. Os votos por correspondência foram abertos e contados sem a presença de representantes da Lista B e unicamente com a presença do Presidente da MAG (candidato da Lista A, logo com interesse direto nos resultados eleitorais, sem isenção, e qual tinha decidido a "ressuscitação de votos nulos"), contrariando os princípios da transparência eleitoral.',
         'Considerando os resultados apurados em 15 de dezembro e a reapreciação dos votos nulos efetuada em 26 de dezembro, a convocatória para a 2.ª volta abrangeu apenas a eleição dos órgãos Conselho Fiscal e Conselho de Ajuizamento.',
       ],
       tone: 'positive',
       rules: [
         'Art.º 13.º, n.º 5 do REFGP.',
-        'Art.º 27.º, n.º 5 do REFGP.',
-        'Art.º 30.º do REFGP.',
+        'Princípios da transparência eleitoral (art. 50.º do REFGP).',
         'Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       documents: [
@@ -56,15 +55,15 @@ function Timeline() {
           ]
         },
         'Em consequência, Conselho Disciplina ficou sem possibilidade de funcionar legalmente.',
-        'Novamente, neste ato eleitoral a abertura dos votos por correspondência foi efetuada sem a presença de representantes de todas as listas, reincidindo na prática irregular verificada a 11/01/2025,   contrariando os princípios da transparência eleitoral.'
+        'Novamente, neste ato eleitoral a abertura dos votos por correspondência foi efetuada sem a presença de representantes de todas as listas.'
       ],
       important: [
         'Nestas eleições não foi apresentada pela MAG nem pela Comissão Eleitoral qualquer relação de delegados que se encontrassem em situação de perda de mandato ou em desconformidade com as disposições estatutárias aplicáveis. As faltas que acusam aos 5 delegados são anteriores a esta data. Os 5 delegados participaram e votaram.',
       ],
       tone: 'alert',
       rules: [
-        'Art.º 27.º, n.º 5 do REFGP.',
-        'Art.º 30.º do REFGP.'
+        'Princípios da transparência eleitoral (art. 50.º do REFGP).',
+        'Regime Eleitoral para o Presidente da República e da Assembleia da República é regulado pelo Decreto-Lei n.º 319-A/76 e pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       documents: [
         {
@@ -88,15 +87,15 @@ function Timeline() {
       date: '3 novembro 2025',
       title: 'TAD anula atos eleitorais de dezembro de 2024',
       fact: [
-        'O Tribunal Arbitral do Desporto decidiu pela anulação das eleições dos órgãos sociais da FGP de 15/12/2024, bem como os atos eleitorais subsequentes (26/12/2024 e 11/01/2025), por violação de normas imperativas do REFGP e dos princípios da democraticidade e da transparência (art. 5.º n.º 1 do Decreto-Lei 248-B/2008).',
-        'Foi ordenada a convocação de AGE e a realização de ato eleitoral para os órgãos sociais no prazo de 15 dias.',
+        <p><strong>O Tribunal Arbitral do Desporto decidiu pela anulação das eleições dos órgãos sociais da FGP</strong> de 15/12/2024, bem como os atos eleitorais subsequentes (26/12/2024 e 11/01/2025), por violação de normas imperativas do REFGP e dos princípios da democraticidade e da transparência (art. 5.º n.º 1 do Decreto-Lei 248-B/2008).</p>,
+        <p><strong>Foi ordenada a convocação de AGE e a realização de ato eleitoral para os órgãos sociais no prazo de 15 dias.</strong></p>,
       ],
       important: [
         'A decisão do TAD é de execução obrigatória. O recurso só tem carácter devolutivo e logo não suspende a obrigação de sua execução.',
       ],
       tone: 'positive',
       rules: [
-        'Normas imperativas do REFGP e dos princípios da democraticidade e da transparência (art. 5.º n.º 1 do Decreto-Lei 248-B/2008.'
+        'Normas imperativas do REFGP e dos princípios da democraticidade e da transparência (art. 5.º n.º 1 do Decreto-Lei 248-B/2008).'
       ],
       documents: [
         {
@@ -106,24 +105,12 @@ function Timeline() {
         }
       ]
     },
-    // {
-    //   date: '4 novembro 2025',
-    //   title: 'FGP Solicita ao TAD que a decisão arbitral de 3 de novembro não seja tomada pública',
-    //   tone: 'positive',
-    //   documents: [
-    //     {
-    //       label: 'Requerimento à oposição de publicação da decisão do TAD',
-    //       source: 'TAD',
-    //       url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - Requerimento Oposição à Publicidade_04_11_2025.pdf`
-    //     }
-    //   ]
-    // },
     {
       date: '5 novembro 2025',
       title: 'TAD indefere o pedido da FGP de 4 de novembro',
       fact: [
-        'O TAD recusa/indefere o pedido da FGP de não publicação da decisão.',
-        'O TAD considera inconstitucional a norma invocada pela FGP e reafirmou o princípio da publicidade e transparência das decisões judiciais.',
+        <p><strong>O TAD recusa/indefere o pedido da FGP</strong> de não publicação da decisão.</p>,
+        <p><strong>O TAD considera inconstitucional a norma invocada pela FGP</strong> e reafirmou o princípio da publicidade e transparência das decisões judiciais.</p>,
       ],
       tone: 'positive',
       documents: [
@@ -165,18 +152,17 @@ function Timeline() {
         }
       ]
     },
-    {
-      date: '10 a 15 novembro 2025',
-      title: 'Delegados solicitam AG Extraordinária para marcação de eleições',
-      fact: [
-        '11 delegados, que representam 23% da AG, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária para definir a marcação da data, hora e local das eleições, em obediência ao disposto nos Estatutos e no REFPG.',
-        'Esta solicitação não obteve nenhuma resposta nem a AG foi marcada.',
-      ],
-      tone: 'negative',
-      important: [
-        'Esta AG nunca chegou a ser convocada pela MAG.',
-      ],
-    },
+    // {
+    //   date: '10 a 15 novembro 2025',
+    //   title: 'Delegados solicitam AG Extraordinária para marcação de eleições',
+    //   fact: [
+    //     '11 delegados, que representam 23% da AG, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária para definir a marcação da data, hora e local das eleições, em obediência ao disposto nos Estatutos e no REFPG.',
+    //   ],
+    //   tone: 'negative',
+    //   important: [
+    //     'Esta solicitação não obteve nenhuma resposta nem a AG foi marcada.',
+    //   ],
+    // },
     // {
     //   date: '11 novembro 2025',
     //   title: 'Comunicado Direção FGP',
@@ -193,7 +179,7 @@ function Timeline() {
     {
       date: '18 novembro 2025',
       title: 'Anúncio Ato Eleitoral',
-      fact:'No seguimento da Decisão do Tribunal Arbitral do Desporto (TAD) datada de 3 de novembro de 2025, a MAG convoca eleições para os órgãos Sociais e, igualmente, para os delegados à assembleia geral para os meses de 7 fevereiro e 29 março de 2026 (cerca de 5 meses após a decisão).',
+      fact: <p>No seguimento da Decisão do TAD datada de 3 de novembro de 2025, a MAG <strong>convoca eleições para os órgãos Sociais</strong> e, igualmente, para os delegados à assembleia geral para 7 fevereiro e 29 março de 2026 respetivamente (cerca de 5 meses após a decisão).</p>,
       tone: 'alert',
       documents: [
         {
@@ -201,6 +187,21 @@ function Timeline() {
           source: 'FGP',
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2025 - CC 0154 - Anúncio de Ato Eleitoral.pdf`
         }
+      ]
+    },
+    {
+      date: '19 novembro 2025',
+      title: 'Delegados solicitam AG Extraordinária para marcação de eleições',
+      fact: [
+        'Depois de 11 delegados solicitarem, sem sucesso, a realização por email da Assembleia Geral Extraordinária prevista no acórdão do TAD, o pedido é formalizado a 19 de novembro de 2025, por carta registada com aviso de receção assinada por 17 dos 48 delegados — bem acima dos 20% exigidos pelo art. 47.º, n.º 3, dos Estatutos — para a marcação da data, hora e local das eleições, com o propósito de corrigir os vícios do primeiro processo eleitoral.',
+      ],
+      tone: 'negative',
+      important: [
+        'A 5 de dezembro, MAG recusou liminarmente os pedidos dos Delegados violando os direitos dos delegados e da AG.',
+        'A AG não foi marcada.',
+      ],
+      rules: [
+        'Art.º 47.º, n.º 3, dos Estatutos da FGP.',
       ]
     },
     {
@@ -222,9 +223,9 @@ function Timeline() {
       date: '25 novembro 2025',
       title: 'TAD esclarece que as eleições são para os órgãos sociais e não para delegados',
       fact: [
-        'No seguimento da contestação dos delegados ao anúncio eleitorial de 18 de novembro sobre a marcação de eleições para delegados à assembleia geral, foi apresentado ao TAD um pedido de esclarecimento sobre se a decisão de 3 de novembro — que determinou a repetição das eleições — se incluiria também a eleição dos Delegados à Assembleia Geral.',
-        'O TAD confirmou, por unanimidade dos árbitros, que a decisão incide apenas sobre as eleições dos órgãos federativos e não abrange a eleição dos Delegados.',
-        'O Tribunal refere de forma explícita: “O ato eleitoral para órgãos federativos […] é distinto do ato eleitoral para a eleição de delegados. […] É o ato eleitoral para órgãos federativos que […] se encontra viciado, pelo que é o ato eleitoral para órgãos federativos que deverá ser repetido, com os mesmos delegados já eleitos previamente." ',
+        <p>No seguimento da <strong>contestação dos delegados</strong> ao anúncio eleitorial de 18 de novembro <strong>sobre a marcação de eleições para delegados à assembleia geral</strong>, foi apresentado ao TAD um pedido de esclarecimento sobre se a decisão de 3 de novembro — que determinou a repetição das eleições — se incluiria também a eleição dos Delegados à Assembleia Geral.</p>,
+        <p><strong>O TAD confirmou, por unanimidade dos árbitros, que a decisão incide apenas sobre as eleições dos órgãos federativos e não abrange a eleição dos Delegados.</strong></p>,
+        <p>O Tribunal refere de forma explícita: <em>“O ato eleitoral para órgãos federativos […] é distinto do ato eleitoral para a eleição de delegados. […] É o ato eleitoral para órgãos federativos que […] se encontra viciado, pelo que é o ato eleitoral para órgãos federativos que deverá ser repetido, com os mesmos delegados já eleitos previamente."</em></p>,
       ],
       tone: 'alert',
       documents: [
@@ -238,7 +239,7 @@ function Timeline() {
     {
       date: '26 novembro 2025',
       title: 'Anúncio de Ato Eleitoral para os órgãos sociais da FGP (brevemente)',
-      fact:'No seguimento do esclarecimento do TAD a proceder, brevemente, ao proceder ao anúncio da data das eleições.',
+      fact: <p>No seguimento do esclarecimento do TAD, <strong>a FGP passou a entender que a repetição eleitoral ordenada pelo TAD se restringia aos "restantes órgãos sociais"</strong>, excluindo a eleição de delegados à Assembleia Geral.</p>,
       tone: 'alert',
       documents: [
         {
@@ -248,15 +249,15 @@ function Timeline() {
         }
       ]
     },
-    {
-      date: '2 dezembro 2025',
-      title: 'Delegados solicitam AG Extraordinária',
-      fact: [
-        '17 delegados, que representam 35% da AG, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária.',
-        'NOTA: A AG nos parâmetros solicitados nunca chegou a ser convocada pela MAG.',
-        ],
-      tone: 'negative',
-    },
+    // {
+    //   date: '2 dezembro 2025',
+    //   title: 'Delegados solicitam AG Extraordinária',
+    //   fact: [
+    //     '17 delegados, que representam 35% da AG, nos termos dos estatutos art.º47 nº3, solicitam que seja convocada uma Assembleia Geral Extraordinária.',
+    //     'NOTA: A AG nos parâmetros solicitados nunca chegou a ser convocada pela MAG.',
+    //     ],
+    //   tone: 'negative',
+    // },
     {
       date: '8 dezembro 2025',
       title: 'Anúncio de Ato Eleitoral para órgãos sociais da FGP',
@@ -290,8 +291,8 @@ function Timeline() {
       date: '13 dezembro 2025',
       title: 'Convocatória de Assembleia Geral Ordinária',
       fact: [
-        'Nesta cronologia, para esta convocatória, importa salientar que não foi apresentada pela MAG qualquer relação de delegados que se encontrassem em situação de perda de mandato ou em desconformidade com as disposições estatutárias aplicáveis.',
-        'Nesta sessão o então Presidente da MAG, Dr. Carlos Morais, anunciou a sua renúncia ao cargo.',
+        <p>Nesta cronologia, para esta convocatória, importa salientar que <strong>não foi apresentada pela MAG qualquer relação de delegados que se encontrassem em situação de perda de mandato</strong> ou em desconformidade com as disposições estatutárias aplicáveis.</p>,
+        'Nesta sessão o então Presidente da MAG e da Comissão Eleitoral, Dr. Carlos Morais, anunciou a sua renúncia ao cargo.',
       ],
       tone: 'positive',
       documents: [
@@ -302,12 +303,6 @@ function Timeline() {
         }
       ]
     },
-    // {
-    //   date: '2025',
-    //   title: 'Atas de 2025',
-    //   fact: 'As atas 182_29mar_25, 183_10_abr25, 184_abr25, 185_13dez foram apenas divulgadas a 18 de março de 2026 e aprovadas a 23 de março de 2026. Contudo, até à presente data, nenhuma das atas aprovadas foi divulgada ou publicada após a respetiva aprovação.',
-    //   tone: 'negative',
-    // },
   ];
 
   return (
@@ -412,6 +407,11 @@ function Timeline() {
             </article>
           ))}
         </div>
+        {/* <div className="timeline-extra-link-wrapper">
+          <Link className="timeline-extra-link" to="/timeline/2025/extra">
+            Ver acontecimentos adicionais 2025
+          </Link>
+        </div> */}
       </div>
     </div>
   );
