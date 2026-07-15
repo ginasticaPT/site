@@ -17,8 +17,6 @@ function Timeline() {
       date: '11 janeiro 2025',
       title:' Eleições órgãos sociais FGP – 2.ª volta',
       fact: [
-        'A convocatória da 2ª volta é divulgada a 27 de dezembro após a divulgação da ata da sessão realizada a 26 de dezembro.',
-        'A realização da 2.ª volta ocorreu para além do prazo de oito dias contado da data da 1.ª volta, não cumprindo o prazo legal estipulado, violando o art.º 13º, nº5, do REFGP.',
         'Durante a contagem e validação dos votos por correspondência, não foi permitida a presença de nenhum representante das Listas concorrentes a este ato. Os votos por correspondência foram abertos e contados sem a presença de representantes da Lista B e unicamente com a presença do Presidente da MAG (candidato da Lista A, logo com interesse direto nos resultados eleitorais, sem isenção, e qual tinha decidido a "ressuscitação de votos nulos"), contrariando os princípios da transparência eleitoral.',
         'Considerando os resultados apurados em 15 de dezembro e a reapreciação dos votos nulos efetuada em 26 de dezembro, a convocatória para a 2.ª volta abrangeu apenas a eleição dos órgãos Conselho Fiscal e Conselho de Ajuizamento.',
       ],
