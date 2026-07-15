@@ -167,6 +167,18 @@
   text-decoration: underline;
 }
 
+.overview-footer-note {
+  max-width: 1080px;
+  margin: 28px auto 0;
+  text-align: center;
+  color: #d7e1da;
+  font-size: 0.95rem;
+}
+
+.overview-footer-note p {
+  margin: 4px 0;
+}
+
 @media (max-width: 900px) {
   .overview-legend,
   .year-grid {

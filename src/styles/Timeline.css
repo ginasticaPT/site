@@ -1,4 +1,4 @@
-﻿.timeline-container {
+.timeline-container {
   background: #282c34;
   min-height: 100vh;
   color: #f4f7f5;
@@ -43,55 +43,6 @@
   max-width: 1000px;
   margin: 0 auto;
   padding: 10px 20px 40px;
-}
-
-.timeline-legend {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-  margin-bottom: 18px;
-}
-
-.timeline-legend-card {
-  background: rgba(255, 255, 255, 0.96);
-  color: #1a1a1a;
-  border-radius: 12px;
-  padding: 14px 16px;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
-  border-left: 5px solid #0d6b3f;
-}
-
-.timeline-legend-card h2 {
-  margin: 0 0 10px;
-  font-size: 1rem;
-}
-
-.timeline-legend-card ul {
-  margin: 0;
-  padding-left: 18px;
-}
-
-.timeline-legend-card li {
-  margin-bottom: 8px;
-  line-height: 1.35;
-}
-
-.timeline-legend-card strong {
-  margin-right: 6px;
-}
-
-.timeline-legend-card a {
-  color: #1f6fcc;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.timeline-legend-card a:hover {
-  text-decoration: underline;
-}
-
-.timeline-legend-card span {
-  color: #505a52;
 }
 
 .vertical-timeline {
@@ -159,10 +110,6 @@
   background-color: #dfdc49;
 }
 
-.timeline-dot.neutral {
-  background-color: #ffffff;
-}
-
 .timeline-card {
   background: rgba(255, 255, 255, 0.96);
   color: #1a1a1a;
@@ -184,16 +131,9 @@
   border-left-color: #dfdc49;
 }
 
-.timeline-card.neutral {
-  border-left-color: #d9dfdb;
-}
-
 .timeline-card.negative,
 .timeline-card.positive,
 .timeline-card.alert,
-.timeline-card.neutral {
-  background-color: #ffffff;
-}
 
 .timeline-card h3 {
   margin: 4px 0 8px;
@@ -291,10 +231,6 @@
 }
 
 @media (max-width: 900px) {
-  .timeline-legend {
-    grid-template-columns: 1fr;
-  }
-
   .vertical-timeline::before {
     left: 20px;
     transform: none;
@@ -331,8 +267,6 @@
   }
 }
 
-
-
 .timeline-fact-bullets {
   margin: 6px 0;
   padding-left: 20px;
@@ -365,4 +299,19 @@
   margin: 0 0 4px;
   line-height: 1.35;
   text-align: justify;
+}
+
+.timeline-extra-link-wrapper {
+  text-align: center;
+  margin-top: 22px;
+}
+
+.timeline-extra-link {
+  color: #1f6fcc;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.timeline-extra-link:hover {
+  text-decoration: underline;
 }
