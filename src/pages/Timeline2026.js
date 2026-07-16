@@ -335,7 +335,7 @@ function Timeline() {
       date: '24 junho 2026',
       title: 'As Associações de Ginástica de Leiria e do Centro submetem uma ação judicial contra a FGP',
       fact: [
-        'No dia 24 de junho de 2026, as Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP, destinada a impugnar as deliberações tomadas pela Assembleia Geral de 23 de março de 2026 que, por grande maioria, decidiu pela manutenção dos 5 delegados na AG.',
+        'No dia 24 de junho de 2026, as Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP no TAFC, destinada a impugnar as deliberações tomadas pela Assembleia Geral de 23 de março de 2026 que, por grande maioria, decidiu pela manutenção dos 5 delegados na AG.',
         <p><strong>Esta acção tem como objetivo a perda de mandato dos 5 delegados que foram votados em AG, 3 meses antes, por uma grande maioria para a sua manutenção como delegados</strong> e assim fazer tabua rasa da decisão tomada pela AG. Neste processo são indicados como contra-interessados os 5 delegados visados em março, para apresentação de contestação senão as deliberações da AG de 23 de março de 2026 podem ser anuladas. Esta acção judicial que terá como acusação contra a FGP os mesmos fundamentos que a FGP defende.</p>,
         'A refletir:',
         {
