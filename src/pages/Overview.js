@@ -120,15 +120,15 @@ function Overview() {
           <h2>2026</h2>
           <ul>
             <li><strong>Exclusão e substituição irregular de delegados 15 dias antes das eleições</strong>. Configura <strong>usurpação</strong> de competências da Assembleia Geral pela MAG, designadamente quanto à declaração unilateral de perda de mandato de delegados eleitos.</li>
-            <li>MAG decide pela suspensão das eleições em 27/02/2026.</li>
-            <li>Março de 2026, Intervenção do <strong>IPDJ</strong> para regularização da situação do colégio eleitoral estipulando <strong>30 dias para a FGP realizar eleições</strong> e apresentar ata da tomada de posse.</li>
+            <li>MAG decide pela suspensão das eleições em 27/02/2026, após questionados pelo IPDJ.</li>
+            <li>Março de 2026, intervenção do <strong>IPDJ</strong> para regularização da situação do colégio eleitoral estipulando <strong>30 dias para a FGP realizar eleições</strong> e apresentar ata da tomada de posse.</li>
             <li>Após duas AGs (7 e 23/03/2026), <strong>Assembleia Geral delibera por maioria expressiva a manutenção dos mandatos de cinco delegados</strong>.</li>
             <li><strong>MAG não assume os resultados da AG</strong> sobre a manutenção dos cinco delegados.</li>
             <li>A 27 de março, 15 delegados requerem, ao abrigo do art. 47.º, n.º 3, dos Estatutos, a convocação de uma Assembleia Geral Extraordinária para apreciação da destituição da Mesa e substituição da Comissão Eleitoral que tem como Presidente, a Inês Nabais, em desconformidade com o Regulamento Eleitoral, por integrar uma das listas candidatas.</li>
             <li>A MAG continuou a recusa sistemática de realização da AG Extraordinária requerida, assim como a resposta a quaisquer pedidos dos Delegados</li>
             <li>Após <strong>intervenções sucessivas do IPDJ</strong>, em Maio de 2026, determina um último <strong>prazo de 30 dias, improrrogável,</strong> para regularização da situação eleitoral e alertando para a suspensão da Utilidade Pública.</li>
             <li>Durante 2026, continuou a recusa sistemática de realização de Assembleias Gerais a pedidos dos Delgados.</li>
-            <li>A 16 de junho, a MAG e a Direção emitem comunicados. A Direção informa ter recorrido do acórdão do TAD — recurso sem efeito suspensivo — e invoca «incerteza jurídica» para justificar a não realização das eleições; a MAG sustenta que não lhe compete reconhecer a deliberação da Assembleia Geral</li>
+            <li>A 16 de junho, a MAG e a Direção emitem comunicados. A Direção informa ter recorrido do acórdão do TAD — recurso sem efeito suspensivo — e invoca «incerteza jurídica» para justificar a não realização das eleições; a MAG sustenta que não lhe compete reconhecer a deliberação da Assembleia Geral.</li>
             <li>24 Junho de 2026, <strong>as Associações de Ginástica do Centro e do Distrito de Leiria</strong> submetem uma <strong>ação judicial contra a FGP</strong> com o <strong>objetivo de perda de mandato dos 5 delegados</strong> que foram votados em AG, 3 meses antes, por uma grande maioria para a sua manutenção.</li>
           </ul>
           <Link className="year-card-link" to="/timeline/2026">Mais detalhes 2026</Link>
