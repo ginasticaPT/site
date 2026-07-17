@@ -58,7 +58,7 @@ function Timeline() {
         'A ata deste ato também procedeu à proclamação dos resultados dos órgãos Conselho de Disciplina e Conselho de Justiça, anteriormente eleitos em 15 de dezembro. (contrariando os princípios da transparência eleitoral (art. 50.º do REFGP).)',
       ],
       rules: [
-        'Princípios da transparência eleitoral (art. 5.º, n.º 1, do Decreto-Lei n.º 248-B/2008).',
+        'Art. 5.º, n.º 1, do Decreto-Lei n.º 248-B/2008 — princípios da democraticidade e da transparência.',
         'Nota interpretativa: Art.º 50º do REFGP - Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       tone: 'negative',
