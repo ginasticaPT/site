@@ -22,9 +22,8 @@ function Timeline() {
       ],
       tone: 'positive',
       rules: [
-        'Art.º 13.º, n.º 5 do REFGP.',
-        'Princípios da transparência eleitoral (art. 50.º do REFGP).',
-        'Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
+        'Art. 5.º, n.º 1, do Decreto-Lei n.º 248-B/2008 — princípios da democraticidade e da transparência.',
+        'Nota interpretativa: Art.º 50º do REFGP - Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       documents: [
         {
@@ -60,8 +59,8 @@ function Timeline() {
       ],
       tone: 'alert',
       rules: [
-        'Princípios da transparência eleitoral (art. 50.º do REFGP).',
-        'Regime Eleitoral para o Presidente da República e da Assembleia da República é regulado pelo Decreto-Lei n.º 319-A/76 e pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
+        'Art. 5.º, n.º 1, do Decreto-Lei n.º 248-B/2008 — princípios da democraticidade e da transparência.',
+        'Nota interpretativa: Art.º 50º do REFGP - Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       documents: [
         {
