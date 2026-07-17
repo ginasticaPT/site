@@ -11,14 +11,16 @@ function Timeline() {
       date: '12 fevereiro 2026',
       title: 'Declaração irregular de perda de mandato de delegados',
       fact: [
-        <p><strong>A 15 dias do ato eleitoral, 5 delegados são informados que por decisão da MAG, devido a faltas, perdem automaticamente o mandato.</strong></p>,
-        'Esta decisão, de perda, compete exclusivamente à AG, de acordo com o art.º 32, nº2, dos estatutos, que é claro que compete à Assembleia Geral deliberar sobre a perda do mandato dos titulares dos órgãos federativos, em conformidade com os estatutos e a lei.',
+        <p><strong>A 15 dias do ato eleitoral, cinco delegados são informados de que a MAG declarou, com fundamento em faltas, a perca automatica dos seus mandatos.</strong></p>,
+        'Esta competência pertence exclusivamente à AG, de acordo com o art.º 32, nº2, dos estatutos, que é claro que compete à Assembleia Geral deliberar sobre a perda do mandato dos titulares dos órgãos federativos.',
+        'A MAG aplicou um critério de faltas injustificadas que não consta de qualquer norma, de qualquer regulamento, nem foi previamente comunicado aos delegados.'
         'Os delegados visados não foram ouvidos em contraditório prévio adequado.',
       ],
       tone: 'negative',
       rules: [
-        'Art.º 32.º, n.º 2 dos estatutos.',
-        'Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
+        'Art.º 32.º, n.º 2 dos Estatutos.',
+        'Art.º 51.º, n.º 2, a), dos Estatutos — dever da Direção de elaborar o regulamento aplicável, não cumprido.',
+        'Nota interpretativa: Art.º 50º do REFGP - Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
     },
     {
@@ -26,12 +28,14 @@ function Timeline() {
       title: 'Substituição irregular de delegados eleitos',
       fact: [
         'A 15 dias das eleições é enviado, aos delegados, o caderno eleitoral com 5 delegados substituídos por delegados que ficaram em 2º lugar nas eleições de delegados de novembro de 2024.',
-        'Esta decisão unilateral da Comissão eleitoral viola o art.º 32, nº2, dos estatutos.',
+        'Esta substituição decorre diretamente da declaração de perda de mandato da véspera e enferma do mesmo vício: altera a composição do colégio eleitoral por decisão de um órgão sem competência para o fazer, em violação do art. 32.º, n.º 2, dos Estatutos.',
+        'Viola, além disso, o Despacho de aclaração n.º 9 do TAD, de 25 de novembro de 2025, que determinara expressamente que o novo ato eleitoral se realizaria com o mesmo colégio eleitoral — ou seja, com os delegados anteriormente eleitos.',
       ],
       tone: 'negative',
       rules: [
         'Art.º 32.º, n.º 2 dos estatutos.',
-        'Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
+        'Despacho de aclaração n.º 9 do TAD, de 25 de novembro de 2025 — manutenção do colégio eleitoral.',
+        'Nota interpretativa: Art.º 50º do REFGP - Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       documents: [
         {
@@ -155,11 +159,11 @@ function Timeline() {
     },
     {
       date: '26 março 2026',
-      title: 'Oficio IPDJ - Risco de perda da Utilidade Pública Desportiva da FGP',
+      title: 'Oficio IPDJ - Risco de suspensão da Utilidade Pública Desportiva da FGP',
       fact: [
         <p>Neste ofício, após a clarificação do caderno eleitoral, <strong>o IPDJ solicita que, no prazo máximo de 30 dias, a FGP remeta cópia da ata da tomada de posse da lista vencedora do novo ato de eleições, sob pena de suspensão da Utilidade Publica.</strong></p>,
         'Este ofício, ocultado pela FGP, só foi do conhecimento dos delegados após exposição de um delegado relativamente à omissão do ofício a baixo datado de 16 de março do IPDJ,  a FGP viu-se obrigada a partilhar os documentos abaixo.',
-        <p>Em resposta, <strong>a FGP defende que precisa clarificar a correta composição do colégio eleitoral</strong>, para marcação de eleições, que seria votada nesse mesmo dia na AG, <strong>e ignora a indicação do TAD em realizar eleições com os mesmos delegados eleitos de 2024.</strong></p>,
+        <p>Em resposta ao IPDJ, <strong>a FGP alegou necessitar de clarificar a composição do colégio eleitoral</strong>, para marcação de eleições, <strong>e ignora a indicação do TAD em realizar eleições com os mesmos delegados eleitos de 2024.</strong></p>,
       ],
       tone: 'negative',
       documents: [
@@ -296,8 +300,8 @@ function Timeline() {
         <p><strong>A 17 de abril</strong>, após deliberação da AG para manutenção dos mandatos dos 5 delegados, decisão expressa no Relatório de Contas aprovado e ata igualmente aprovada sem votos contra, <strong>a Direção da FGP solicita 90 dias de extensão</strong> do solicitado no ofício de 16 de março por achar que ata da AG de 23 de março pode desencadear reações legais que não garantem a estabilidade institucional para marcação de Eleições.</p>,
         <p><strong>A 5 de maio o IPDJ responde</strong> que a justificação apresentada não é suficiente para a extensão do prazo, mas <strong>concede 30 dias de extensão, improrrogáveis, estando em risco a FGP de perder a Utilidade Pública Desportiva.</strong></p>,
         <p>A 18 de maio a FGP, numa lógica de adiamento constante, volta a descrever uma instabilidade para marcação de eleições devido ao recurso no TCAS e pelas deliberações da AG 186 que podem ser "suscetíveis de reação contenciosa".</p>,
-        <p>Neste último ofício a FGP indica ter conhecimento de uma reclamação de 7 delegados datada de 20 de abril.</p>,
-        <p>Nesse mesmo dia, 18 de maio, <strong>o IPDJ responde</strong> não pode pronunciar-se <strong>sobre o conteúdo da reclamação de 20 de abril, que é julgada improcedente</strong>, por visar sobre uma diligência que não é suscetível de reclamação.</p>,
+        <p>Neste último ofício a FGP indica ter conhecimento de uma reclamação de 7 delegados datada de 20 de abril, contestando a deliberação de 23 de março que rejeitou a perda de mandato dos cinco delegados.</p>,
+        <p>Nesse mesmo dia, 18 de maio, <strong>o IPDJ responde</strong> que não pode pronunciar-se <strong>sobre o conteúdo da reclamação de 20 de abril, que é julgada improcedente</strong>, por visar sobre uma diligência que não é suscetível de reclamação.</p>,
       ],
       tone: 'negative',
       documents: [
