@@ -13,7 +13,7 @@ function Timeline() {
       fact: [
         <p><strong>A 15 dias do ato eleitoral, cinco delegados são informados de que a MAG declarou, com fundamento em faltas, a perca automatica dos seus mandatos.</strong></p>,
         'Esta competência pertence exclusivamente à AG, de acordo com o art.º 32, nº2, dos estatutos, que é claro que compete à Assembleia Geral deliberar sobre a perda do mandato dos titulares dos órgãos federativos.',
-        'A MAG aplicou um critério de faltas injustificadas que não consta de qualquer norma, de qualquer regulamento, nem foi previamente comunicado aos delegados.'
+        'A MAG aplicou um critério de faltas injustificadas que não consta de qualquer norma, de qualquer regulamento, nem foi previamente comunicado aos delegados.',
         'Os delegados visados não foram ouvidos em contraditório prévio adequado.',
       ],
       tone: 'negative',
