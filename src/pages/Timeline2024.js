@@ -20,7 +20,8 @@ function Timeline() {
       rules: [
         'Art.º 8.º, n.º 3 do REFGP.',
         'Art.º 11.º e 13.º do REFGP.',
-        'Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
+        'Art. 5.º, n.º 1, do Decreto-Lei n.º 248-B/2008 — princípios da democraticidade e da transparência.',
+        'Nota interpretativa: Art.º 50º do REFGP - Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       tone: 'negative',
       documents: [
@@ -37,7 +38,8 @@ function Timeline() {
       fact: <p>Às 22h19 de 23 de dezembro, na véspera de Natal e sem cumprir o prazo mínimo legal para notificação, <strong>o à data Presidente da MAG (Carlos Morais)</strong> comunica que no dia 26 de dezembro, às 14h00, <strong>por sua decisão e do atual Presidente da MAG (Raul Caldeira) – ambos candidatos pela lista A e com conflito de interesses - decidiram que votos que foram considerados nulos</strong> durante a 1ª volta eleitoral de dia 15 de dezembro de 2024, passados 8 dias, <strong>foram considerados validos</strong> tendo por base reclamação que não podia ser atendida nem mesmo apresentada devido à sua extemporaneidade e ilegalidade violando as regras legais de atos eleitorais (Regime Eleitoral para o Presidente da República e da Assembleia da Republica).</p>,
       rules: [
         'Art.º 30.º e 32.º do REFGP.',
-        'Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
+        'Art. 5.º, n.º 1, do Decreto-Lei n.º 248-B/2008 — princípios da democraticidade e da transparência.',
+        'Nota interpretativa: Art.º 50º do REFGP - Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       tone: 'negative',
       documents: [
@@ -56,8 +58,8 @@ function Timeline() {
         'A ata deste ato também procedeu à proclamação dos resultados dos órgãos Conselho de Disciplina e Conselho de Justiça, anteriormente eleitos em 15 de dezembro. (contrariando os princípios da transparência eleitoral (art. 50.º do REFGP).)',
       ],
       rules: [
-        'Princípios da transparência eleitoral (art. 50.º do REFGP).',
-        'Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
+        'Princípios da transparência eleitoral (art. 5.º, n.º 1, do Decreto-Lei n.º 248-B/2008).',
+        'Nota interpretativa: Art.º 50º do REFGP - Regime eleitoral para o Presidente da República é regulado pelo Decreto-Lei n.º 319-A/76, e o da Assembleia da República pela Lei n.º 14/79, sendo ambos periodicamente atualizados pela Comissão Nacional de Eleições.'
       ],
       tone: 'negative',
       documents: [
