@@ -348,7 +348,7 @@ function Timeline() {
           type: 'bullets',
           items: [
             'Não será estranho a ré e as autoras de uma ação convirjam no mesmo objetivo?',
-            'A ata da AGE n.º 186 nunca foi publicada no sítio da FGP nem partilhada com os delegados da Assembleia Geral assinada. Consta, porém, do processo judicial destas associações, devidamente assinada. Como obtiveram as Associações demandantes um documento que nunca foi enviado finalizado e assinado aos próprios delegados?
+            'A ata da AGE n.º 186 nunca foi publicada no sítio da FGP nem partilhada com os delegados da Assembleia Geral assinada. Consta, porém, do processo judicial destas associações, devidamente assinada. Como obtiveram as Associações demandantes um documento que nunca foi enviado finalizado e assinado aos próprios delegados?',
             'Quem ganha com este processo de acusação e de mais adiamento?',
             'Tendo a AG deliberado, por escrutínio secreto, a manutenção dos 5 delegados visados, e tendo a respetiva ata sido posteriormente aprovada sem votos contra, suscita-se a questão da oportunidade e do fundamento da presente ação judicial destinada à impugnação dessas deliberações?',
             'O que terá levado estas Associações a submeter esta ação judicial mais de 2 meses depois da deliberação da AG de 23 de março de 2026?',
