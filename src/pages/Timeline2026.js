@@ -339,13 +339,17 @@ function Timeline() {
       date: '24 junho 2026',
       title: 'As Associações de Ginástica de Leiria e do Centro submetem uma ação judicial contra a FGP',
       fact: [
-        'No dia 24 de junho de 2026, as Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP no TAFC, destinada a impugnar as deliberações tomadas pela Assembleia Geral de 23 de março de 2026 que, por grande maioria, decidiu pela manutenção dos 5 delegados na AG.',
-        <p><strong>Esta acção tem como objetivo a perda de mandato dos 5 delegados que foram votados em AG, 3 meses antes, por uma grande maioria para a sua manutenção como delegados</strong> e assim fazer tabua rasa da decisão tomada pela AG. Neste processo são indicados como contra-interessados os 5 delegados visados em março, para apresentação de contestação senão as deliberações da AG de 23 de março de 2026 podem ser anuladas. Esta acção judicial que terá como acusação contra a FGP os mesmos fundamentos que a FGP defende.</p>,
+        'No dia 24 de junho de 2026, as Associações de Ginástica do Centro e do Distrito de Leiria submetem uma ação judicial contra a FGP no TAFC, destinada a impugnar as deliberações tomadas pela Assembleia Geral de 23 de março de 2026 que, por maioria expressiva, decidiu pela manutenção dos mandatos dos cinco delegados na AG.',
+        'Os cinco delegados visados são indicados como contrainteressados, para apresentação de contestação, sob pena de as deliberações impugnadas poderem ser anuladas.',
+        'Cabe à FGP, enquanto ré, defender a validade das deliberações da sua própria Assembleia Geral. Sucede que é a própria FGP, através da Mesa e da Direção, quem as repudia — recorreu delas e invoca-as como fonte de "incerteza" para adiar as eleições. A defesa da deliberação sobra, assim, para os cinco delegados visados, obrigados a contestar a título individual e a expensas próprias para preservarem um mandato que a própria Assembleia lhes reconheceu — e que caberia à Federação proteger.',
+        'A ação assenta, nos seus fundamentos, na mesma posição que a própria FGP tem defendido perante o IPDJ. Ré e autoras convergem, assim, no objetivo de afastar os efeitos de uma deliberação tomada pela Assembleia Geral.
+        //<p><strong>Esta acção tem como objetivo a perda de mandato dos 5 delegados que foram votados em AG, 3 meses antes, por uma grande maioria para a sua manutenção como delegados</strong> e assim fazer tabua rasa da decisão tomada pela AG. Neste processo são indicados como contra-interessados os 5 delegados visados em março, para apresentação de contestação senão as deliberações da AG de 23 de março de 2026 podem ser anuladas. Esta acção judicial que terá como acusação contra a FGP os mesmos fundamentos que a FGP defende.</p>,
         'A refletir:',
         {
           type: 'bullets',
           items: [
-            'Não será estranho a ré concordar com o acusador?',
+            'Não será estranho a ré e as autoras de uma ação convirjam no mesmo objetivo?',
+            'A ata da AGE n.º 186 nunca foi publicada no sítio da FGP nem partilhada com os delegados da Assembleia Geral assinada. Consta, porém, do processo judicial destas associações, devidamente assinada. Como obtiveram as Associações demandantes um documento que nunca foi enviado finalizado e assinado aos próprios delegados?
             'Quem ganha com este processo de acusação e de mais adiamento?',
             'Tendo a AG deliberado, por escrutínio secreto, a manutenção dos 5 delegados visados, e tendo a respetiva ata sido posteriormente aprovada sem votos contra, suscita-se a questão da oportunidade e do fundamento da presente ação judicial destinada à impugnação dessas deliberações?',
             'O que terá levado estas Associações a submeter esta ação judicial mais de 2 meses depois da deliberação da AG de 23 de março de 2026?',
