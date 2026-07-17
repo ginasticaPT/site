@@ -29,8 +29,8 @@ function Timeline() {
         'Importa, também, referir que os 5 delegados visados apresentaram justificações de faltas, que não foram consideradas pela MAG em comparação com outros delegados.',
       ],
       rules: [
-        'Art.º 14 dos Estatutos da FGP',
-        'Art.º 3.º do REFGP',
+        'Art.º 14 dos Estatutos',
+        'Art.º 3.º do Estatutos',
       ],
       documents: [
         {
