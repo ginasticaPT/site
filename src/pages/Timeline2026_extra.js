@@ -125,6 +125,7 @@ function Timeline() {
       title: 'Comunicados FGP e MAG',
       fact: [
         'A 16 de junho, a MAG e a Direção emitem comunicados. A Direção informa ter recorrido do acórdão do TAD — recurso sem efeito suspensivo — e invoca «incerteza jurídica» para justificar a não realização das eleições; a MAG sustenta que não lhe compete reconhecer a deliberação da Assembleia Geral de 23/03/2026.'
+        'A mesma MAG que, em fevereiro, se assumiu a competência para declarar a perda de mandato dos cinco delegados alega agora não ter competência para reconhecer a deliberação que a rejeitou.',
       ],
       documents: [
         {
