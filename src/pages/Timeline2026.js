@@ -370,6 +370,13 @@ function Timeline() {
       rules: [
         'Art.º 21, n.º 1, alínea a), do Decreto-Lei n.º 248-B/2008.',
       ],
+      documents: [
+        {
+          label: 'Proposta Suspensão Utilidade Pública ao SE',
+          source: 'IPDJ',
+          url: `${process.env.PUBLIC_URL}/documents/FGP - 2026 - ProcessofGP_IPDJ_PROPOSTA_SuspençãoUP_10_07_2026.pdf`
+        }
+      ]
   ];
 
   return (
