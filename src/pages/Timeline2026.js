@@ -377,6 +377,7 @@ function Timeline() {
           url: `${process.env.PUBLIC_URL}/documents/FGP - 2026 - ProcessofGP_IPDJ_PROPOSTA_SuspençãoUP_10_07_2026.pdf`
         }
       ]
+    },
   ];
 
   return (
