@@ -357,6 +357,19 @@ function Timeline() {
       ],
       tone: 'negative',
     },
+    {
+      date: '10 julho 2026',
+      title: 'Gabinete do Secretário de Estado do Desporto recebe proposta do IPDJ, de suspensão de Utilidade Pública Desportiva da FGP',
+      fact: [
+        'Perante o desencadear dos acontecimentos, já expostos, o IPDJ propôs formalmente ao Secretário de Estado do Desporto a suspensão do estatuto de utilidade pública desportiva da FGP.',         
+      ],
+      tone: 'negative',
+      important: [
+        'Mais do que uma questão limitada aos atuais órgãos federativos, estamos perante uma situação que poderá repercutir-se nos clubes, Associações Territoriais, ginastas, treinadores, juízes e restantes estruturas da Ginástica portuguesa.',
+      ],
+      rules: [
+        'Art.º 21, n.º 1, alínea a), do Decreto-Lei n.º 248-B/2008.',
+      ],
   ];
 
   return (
